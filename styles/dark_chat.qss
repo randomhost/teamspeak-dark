@@ -1,0 +1,272 @@
+/*
+ * Dark Qt StyleSheet
+ * Special file for ChatLog, loaded in addition to global default.qss stylesheet
+ *
+ * Copyright (c) 2017 random-host.com
+ *
+ * Supported HTML Subset:
+ *
+ *  TeamSpeak 3's text chat is able to display rich text, specified using a very limited subset of HTML 4 markup.
+ *  Please refer to this page for more information:
+ *
+ *  http://qt-project.org/doc/qt-4.8/richtext-html-subset.html#css-properties
+ *
+ * ===
+ * === Chat Message Syntax Example:
+ * ===
+ *
+ *  <p class="{PRIMARY_CLASS}">
+ *    <span class="Body">
+ *      <img src="...">
+ *      <span class="{SECONDARY_CLASS}">...</span>
+ *      <a class="{SECONDARY_CLASS}" href="...">...</a>:
+ *      <spanclass="{SECONDARY_CLASS}">
+ *        ...
+ *      </span>
+ *  </p>
+ *
+ * ===
+ * === Primary Classes:
+ * ===
+ *
+ *  - TextMessage_Normal                   :: informational message
+ *  - TextMessage_Welcome                  :: server welcome message
+ *  - TextMessage_HostMsg                  :: server host message
+ *  - TextMessage_Message                  :: text messages (details below)
+ *  - TextMessage_Poke                     :: poke messages
+ *  - TextMessage_Connected                :: own client connected to server
+ *  - TextMessage_Disconnected             :: own client disconnected from server
+ *  - TextMessage_ClientConnected          :: other client connected to server
+ *  - TextMessage_ClientDisconnected       :: other client connected from server
+ *  - TextMessage_ClientJoined             :: other client joined channel
+ *  - TextMessage_ClientLeft               :: other client left channel
+ *  - TextMessage_ClientSwitched           :: own/other client switched channel
+ *  - TextMessage_ClientDropped            :: own/other client timed out
+ *  - TextMessage_ClientKicked             :: own/other client kicked
+ *  - TextMessage_ClientBanned             :: own/other client banned
+ *  - TextMessage_ChannelCreated           :: channel created
+ *  - TextMessage_ChannelDeleted           :: channel deleted
+ *  - TextMessage_ChannelMoved             :: channel parent changed
+ *  - TextMessage_ChannelEdited            :: channel edited
+ *  - TextMessage_ServerEdited             :: server edited
+ *  - TextMessage_ServerError              :: server error
+ *  - TextMessage_GroupAssigned            :: channel/server group assigned
+ *  - TextMessage_GroupRevoked             :: channel/server group revoked
+ *  - TextMessage_TalkPowerAssigned        :: talk power granted
+ *  - TextMessage_TalkPowerRevoked         :: talk power revoked
+ *  - TextMessage_TalkPowerRequested       :: talk power requested
+ *  - TextMessage_BeginHistory             :: talk power revoked
+ *  - TextMessage_EndHistory               :: talk power revoked
+ *
+ *  The TextMessage_Message class can be used in combination with additional classes to identify specific messages.
+ *  Currently, we provide the following:
+ *
+ *  - Incoming                             :: incoming text messages
+ *  - Outgoing                             :: outgoing text messages
+ *  - Friend                               :: text messages sent by friends
+ *  - Blocked                              :: text messages sent by blocked users
+ *  - Private                              :: text messages in a private chat tab
+ *  - Public                               :: text messages in a channel/server chat tab
+ *
+ *  The CSS definition for a private text message sent by a friend would look like this:
+ *
+ *  .TextMessage_Message.Friend.Private { ... }
+ *
+ * ===
+ * === Secondary Classes (used within messages):
+ * ===
+ *
+ *  - TextMessage_UserLink                 :: user nickname
+ *  - TextMessage_ChannelLink              :: channel name
+ *  - TextMessage_ServerLink               :: server name
+ *  - TextMessage_OfflineLink              :: offline unread message(s) count
+ *  - TextMessage_Time                     :: message time
+ *  - TextMessage_Text                     :: message text
+ */
+
+/* @group Global Elements */
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* @end */
+
+/* @group Object Link Elements */
+
+.TextMessage_UserLink {
+  color: #1CB0F4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.TextMessage_OfflineLink,
+.TextMessage_ChannelLink,
+.TextMessage_ServerLink {
+  color: #1CB0F4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* @end */
+
+/* @group Colored Message Elements */
+
+.TextMessage_HostName {
+  color: #1CB0F4;
+  font-weight: bold;
+}
+
+.TextMessage_Welcome,
+.TextMessage_HostMessage,
+.TextMessage_Poke  {
+  color: #0AA537;
+}
+
+.TextMessage_Normal,
+.TextMessage_Connected,
+.TextMessage_ClientConnected,
+.TextMessage_ClientJoined {
+  color: #1CB0F4;
+}
+
+.TextMessage_Disconnected,
+.TextMessage_ClientDisconnected,
+.TextMessage_ClientSwitched,
+.TextMessage_ClientLeft {
+  color: #1CB0F4;
+}
+
+.TextMessage_ClientDropped,
+.TextMessage_ClientKicked,
+.TextMessage_ClientBanned {
+  color: #C9070A;
+}
+
+.TextMessage_ChannelCreated,
+.TextMessage_ChannelDeleted,
+.TextMessage_ChannelEdited,
+.TextMessage_ChannelMoved,
+.TextMessage_ServerEdited {
+  color: #1CB0F4;
+}
+
+.TextMessage_GroupAssigned,
+.TextMessage_GroupRevoked,
+.TextMessage_TalkPowerAssigned,
+.TextMessage_TalkPowerRevoked,
+.TextMessage_TalkPowerRequested {
+  color: #1CB0F4;
+}
+
+/* @end */
+
+/* @group Time and History Elements */
+
+.TextMessage_Time {
+    color: #1CB0F4;
+	font-weight: normal;
+}
+
+.TextMessage_BeginHistory,
+.TextMessage_EndHistory {
+  color: #707475;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* @end */
+
+/* @group Error Message Elements */
+
+.TextMessage_ServerError {
+  color: #C9070A;
+  font-weight: bold;
+}
+
+/* @end */
+
+/* @group Infoframe Elements */
+
+.InfoFrame_Title {
+  font-size: x-large;
+}
+
+.InfoFrame_Title .TextMessage_UserLink,
+.InfoFrame_Title .TextMessage_ChannelLink,
+.InfoFrame_Title .TextMessage_ServerLink {
+  color: #1CB0F4;
+  font-weight: normal;
+}
+
+.InfoFrame_Title .InfoFrame_CustomNick {
+  color: #1CB0F4;
+}
+
+.InfoFrame_Table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+.InfoFrame_Table td {
+  padding: 0px 4px 0px 1px;
+}
+
+.Highlight,
+.InfoFrame_Table td.Highlight {
+  color: #1CB0F4;
+}
+
+.Important,
+.InfoFrame_Table td.Important {
+  color: #E33938;
+}
+
+.Active,
+.InfoFrame_Table td.Active {
+  color: #43B56E;
+}
+
+.Inactive,
+.InfoFrame_Table td.Inactive {
+  color: #72767D;
+}
+
+.InfoFrame_Table td.Label {
+  font-weight: bold;
+}
+
+.InfoFrame_Table td.Bottom {
+  vertical-align: bottom;
+}
+
+.InfoFrame_Table td.List {
+  padding: 0px 1px 0px 8px;
+}
+
+.InfoFrame_Table td.Space-Top {
+  padding: 10px 0px 0px 0px;
+}
+
+.InfoFrame_Table td.Space-Bot {
+  padding: 0px 0px 10px 0px;
+}
+
+.InfoFrame_Table.Space-Top {
+  margin: 10px 0px 0px 0px;
+}
+
+.InfoFrame_Table.Space-Bot {
+  margin: 0px 0px 10px 0px;
+}
+
+a {
+	color: #1CB0F4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* @end */
