@@ -1100,27 +1100,26 @@ QCheckBox::indicator:checked:hover {
 QCheckBox::indicator:unchecked:hover {
     background: #72767D;
 }
-QRadioButton::indicator:checked {
-    image: url(styles:dark/checkbox_enabled.png);
-    background: #7289DA;
+QRadioButton {
+    border: 1px solid #222427;
+    border-radius: 3px;
+    background: #303338;
+    color: #CCCCCC;
+    padding: 3px 4px;
+    selection-background-color: #26282C;
+    font-size: 12px;
+}
+QRadioButton::indicator {
+    background-color: transparent;
     border: none;
-    border-radius: 10px;
-    height: 20px;
-    width: 35px;
+    border-radius: 3px;
+    padding-right: 5px;
+}
+QRadioButton::indicator:checked {
+    image: url(styles:dark/checkbox_tree_enabled.png);
 }
 QRadioButton::indicator::unchecked {
-    image: url(styles:dark/checkbox_disabled.png);
-    background: #72767D;
-    border: none;
-    border-radius: 10px;
-    height: 20px;
-    width: 35px;
-}
-QRadioButton::indicator:unchecked:hover {
-    background: #72767D;
-}
-QRadioButton::indicator:checked:hover {
-    background: #7289DA;
+    image: url(styles:dark/checkbox_tree_disabled.png);
 }
 
 /* Remove window resize grip */
