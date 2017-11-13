@@ -292,6 +292,9 @@ QComboBox::drop-down {
     color: #ffffff;
     image: url("styles:dark/arrow_bold_down.png");
 }
+QComboBox::drop-down:disabled {
+    image: url("styles:dark/arrow_bold_down_disabled.png");
+}
 QComboBox:!editable:on,
 QComboBox::drop-down:editable:on {
     background: #303338;
@@ -692,7 +695,7 @@ QSpinBox::up-arrow:disabled,
 QSpinBox::up-arrow:off,
 QDoubleSpinBox#delayPTTSpinBox::up-arrow:disabled,
 QDoubleSpinBox#delayPTTSpinBox::up-arrow:off {
-    image: url("styles:dark/arrow_bold_up.png");
+    image: url("styles:dark/arrow_bold_up_disabled.png");
 }
 QSpinBox::down-button,
 QDoubleSpinBox::down-button,
@@ -720,7 +723,7 @@ QSpinBox::down-arrow:disabled,
 QSpinBox::down-arrow:off,
 QDoubleSpinBox#delayPTTSpinBox::down-arrow:disabled,
 QDoubleSpinBox#delayPTTSpinBox::down-arrow:off {
-    image: url("styles:dark/arrow_bold_down.png");
+    image: url("styles:dark/arrow_bold_down_disabled.png");
 }
 /* Tree View (e.g. channel tree) */
 QTreeView {
