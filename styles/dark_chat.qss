@@ -128,14 +128,14 @@ p {
 .TextMessage_Connected,
 .TextMessage_ClientConnected,
 .TextMessage_ClientJoined {
-  color: #1CB0F4;
+  color: #7289DA;
 }
 
 .TextMessage_Disconnected,
 .TextMessage_ClientDisconnected,
 .TextMessage_ClientSwitched,
 .TextMessage_ClientLeft {
-  color: #1CB0F4;
+  color: #7289DA;
 }
 
 .TextMessage_ClientDropped,
@@ -149,7 +149,7 @@ p {
 .TextMessage_ChannelEdited,
 .TextMessage_ChannelMoved,
 .TextMessage_ServerEdited {
-  color: #1CB0F4;
+  color: #7289DA;
 }
 
 .TextMessage_GroupAssigned,
@@ -157,7 +157,7 @@ p {
 .TextMessage_TalkPowerAssigned,
 .TextMessage_TalkPowerRevoked,
 .TextMessage_TalkPowerRequested {
-  color: #1CB0F4;
+  color: #7289DA;
 }
 
 /* @end */
@@ -165,7 +165,7 @@ p {
 /* @group Time and History Elements */
 
 .TextMessage_Time {
-    color: #1CB0F4;
+    color: #7289DA;
 	font-weight: normal;
 }
 
