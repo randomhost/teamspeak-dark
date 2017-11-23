@@ -151,8 +151,7 @@ QSplitter::handle:vertical {
 }
 
 /* Multi line text inputs */
-QTextEdit
-{
+QTextEdit {
     border: 1px solid #202225;
     background: #303338;
     padding: 6px;
@@ -165,6 +164,9 @@ QLineEdit {
     border-radius: 3px;
     background: #303338;
     padding: 6px;
+}
+QLineEdit:focus {
+    border:1px solid #7289DA;
 }
 
 /* Chat input got it's own class */
@@ -215,19 +217,33 @@ QPushButton:disabled {
 QPushButton:checked {
     background-color: #677BC4;
 }
-
 QPushButton:checked:hover {
     background-color: #677BC4;
+}
+#Addons_Setup QPushButton {
+    border-radius: 0px;
+}
+#Addons_Setup QStackedWidget QPushButton {
+    background: #3C3F44;
+    border: none;
+    color: #dddddd;
+    border-radius: 0px;
+}
+#Addons_Setup QStackedWidget QPushButton:hover {
+    background: #42464D;
+}
+#Addons_Setup QStackedWidget QPushButton:checked {
+    color: #7289DA;
 }
 
 /* MenuBar */
 QMenuBar {
-    background: #202225;
+    background: #36393E;
     spacing: 2px;
     color: #dddddd;
 }
 QMenuBar::item {
-    background: #202225;
+    background: #36393E;
     color: #dddddd;
 }
 QMenuBar::item:selected {
@@ -266,10 +282,10 @@ QMenu::separator {
  */
 /*
 QMenu::indicator {
-	background: #42464D;
+    background: #42464D;
 }
 QMenu::indicator:non-exclusive:checked {
-	background: #42464D;
+    background: #42464D;
 }
 */
 /* Combobox (drop-down fields) */
@@ -280,7 +296,7 @@ QComboBox {
     color: #CCCCCC;
     padding: 6px;
     selection-background-color: #26282C;
-    font-size: 12px;
+    font-size: 8pt;
 }
 QComboBox::drop-down {
     background: #303338;
@@ -354,7 +370,7 @@ QListView#fileListView::item:selected {
 /* Toolbar (main toolbar with buttons and volume slider) */
 QToolBar {
     border: transparent;
-    background: #2F3136;
+    background: #36393E;
     spacing: 5px;
 }
 /* ToolButton (e.g. "Toggle Away Status", "Mute Microphone", etc.) */
@@ -731,6 +747,11 @@ QTreeView {
     border: 1px solid #202225;
     border-radius: 3px;
 }
+QTreeView#ServerTreeView,
+QTreeView#remoteTreeView,
+QTreeView#localTreeView {
+  qproperty-rootIsDecorated: 0;
+}
 TreeView {
     background: #2F3136;
     border: none;
@@ -738,7 +759,6 @@ TreeView {
     color:#dddddd;
 }
 QTreeView::item {
-    height: 16px;
     padding: 1px;
     border: 0px;
 }
@@ -1061,12 +1081,10 @@ QRadioButton:disabled,
 QTextEdit:disabled {
     color: #43454B;
 }
-
 QTextEdit:disabled {
     background: #303338;
     color: #43454B;
 }
-
 QTextEdit#pluginDescTextEdit:disabled,
 QTextEdit#descriptionTextEdit:disabled,
 QTextEdit#vserverWelcomeTextEdit:disabled,
@@ -1093,7 +1111,6 @@ QCheckBox::indicator:unchecked {
     border-radius: 10px;
     image: url(styles:dark/checkbox_disabled.png);
 }
-
 QCheckBox::indicator:checked:hover {
     background: #7289DA;
 }
@@ -1115,7 +1132,7 @@ QRadioButton {
     color: #CCCCCC;
     padding: 3px 4px;
     selection-background-color: #26282C;
-    font-size: 12px;
+    font-size: 8pt;
 }
 QRadioButton::indicator {
     background-color: transparent;
@@ -1143,7 +1160,6 @@ QRadioButton::indicator:disabled:checked {
 QRadioButton::indicator:disabled:unchecked {
     image: url(styles:dark/checkbox_tree_inactive_disabled.png);
 }
-
 
 /* Remove window resize grip */
 QSizeGrip {
@@ -1195,12 +1211,10 @@ QToolTip {
 }
 
 /* Poke dialog */
-PokeDialog QScrollBar:vertical
-{
+PokeDialog QScrollBar:vertical {
     width: 0px;
 }
-PokeDialog QTextEdit
-{
+PokeDialog QTextEdit {
     border: none;
     background: transparent;
     padding: 0;
