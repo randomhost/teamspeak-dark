@@ -747,6 +747,11 @@ QTreeView {
     border: 1px solid #202225;
     border-radius: 3px;
 }
+QTreeView#ServerTreeView,
+QTreeView#remoteTreeView,
+QTreeView#localTreeView {
+  qproperty-rootIsDecorated: 0;
+}
 TreeView {
     background: #2F3136;
     border: none;
