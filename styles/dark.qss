@@ -238,12 +238,12 @@ QPushButton:checked:hover {
 
 /* MenuBar */
 QMenuBar {
-    background: #202225;
+    background: #36393E;
     spacing: 2px;
     color: #dddddd;
 }
 QMenuBar::item {
-    background: #202225;
+    background: #36393E;
     color: #dddddd;
 }
 QMenuBar::item:selected {
@@ -370,7 +370,7 @@ QListView#fileListView::item:selected {
 /* Toolbar (main toolbar with buttons and volume slider) */
 QToolBar {
     border: transparent;
-    background: #2F3136;
+    background: #36393E;
     spacing: 5px;
 }
 /* ToolButton (e.g. "Toggle Away Status", "Mute Microphone", etc.) */
