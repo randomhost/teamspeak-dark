@@ -165,6 +165,9 @@ QLineEdit {
     background: #303338;
     padding: 6px;
 }
+QLineEdit:focus {
+    border:1px solid #7289DA;
+}
 
 /* Chat input got it's own class */
 ChatLineEdit {
