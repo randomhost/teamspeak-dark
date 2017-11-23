@@ -296,7 +296,7 @@ QComboBox {
     color: #CCCCCC;
     padding: 6px;
     selection-background-color: #26282C;
-    font-size: 12px;
+    font-size: 8pt;
 }
 QComboBox::drop-down {
     background: #303338;
@@ -1128,7 +1128,7 @@ QRadioButton {
     color: #CCCCCC;
     padding: 3px 4px;
     selection-background-color: #26282C;
-    font-size: 12px;
+    font-size: 8pt;
 }
 QRadioButton::indicator {
     background-color: transparent;
