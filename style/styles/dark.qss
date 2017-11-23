@@ -165,9 +165,6 @@ QLineEdit {
     background: #303338;
     padding: 6px;
 }
-QLineEdit:focus {
-    border:1px solid #7289DA;
-}
 
 /* Chat input got it's own class */
 ChatLineEdit {
@@ -238,12 +235,12 @@ QPushButton:checked:hover {
 
 /* MenuBar */
 QMenuBar {
-    background: #36393E;
+    background: #2F3136;
     spacing: 2px;
     color: #dddddd;
 }
 QMenuBar::item {
-    background: #36393E;
+    background: transparent;
     color: #dddddd;
 }
 QMenuBar::item:selected {
@@ -385,20 +382,20 @@ QToolButton {
 QToolButton:pressed {
     border: none;
     border-radius: 3px;
-    background: #677BC4;
+    background: #25252A;
     color: #ffffff;
 }
 QToolButton:hover {
     border: none;
     border-radius: 3px;
-    background: #677BC4;
-    color: #ffffff;
+    background: #25252A;
+    color: #dddddd;
 }
 QToolButton:checked,
 QToolButton#serverQueryAdvancedButton:checked {
     border: none;
     border-radius: 3px;
-    background: #7289DA;
+    background: #25252A;
     color: #dddddd;
 }
 QToolButton[popupMode="1"] {
@@ -413,7 +410,7 @@ QToolButton[popupMode="1"]:hover {
 }
 QToolButton[popupMode="1"]:checked {
     border: none;
-    background: #7289DA;
+    background: #25252A;
     color: #dddddd;
     border-radius: 3px;
     padding-right: 15px;
@@ -509,7 +506,7 @@ QToolButton#serverQueryStopButton:disabled,
 QToolButton#serverQueryRestartButton:disabled {
     border: none;
     border-radius: 3px;
-    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ccc, stop: 1 #ddd);
+    background: #25262A;
     color: #43454B;
 }
 QToolButton#TextFormatButton,
@@ -576,7 +573,7 @@ QToolButton#fbViewIconsButton:checked,
 QToolButton#fbViewListButton:checked {
     border: none;
     border-radius: 3px;
-    background: #7289DA;
+    background: #25262A;
     color: #dddddd;
 }
 QToolButton#toolButtonBold,
