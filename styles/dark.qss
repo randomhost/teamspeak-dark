@@ -151,8 +151,7 @@ QSplitter::handle:vertical {
 }
 
 /* Multi line text inputs */
-QTextEdit
-{
+QTextEdit {
     border: 1px solid #202225;
     background: #303338;
     padding: 6px;
@@ -215,7 +214,6 @@ QPushButton:disabled {
 QPushButton:checked {
     background-color: #677BC4;
 }
-
 QPushButton:checked:hover {
     background-color: #677BC4;
 }
@@ -266,10 +264,10 @@ QMenu::separator {
  */
 /*
 QMenu::indicator {
-	background: #42464D;
+    background: #42464D;
 }
 QMenu::indicator:non-exclusive:checked {
-	background: #42464D;
+    background: #42464D;
 }
 */
 /* Combobox (drop-down fields) */
@@ -1061,12 +1059,10 @@ QRadioButton:disabled,
 QTextEdit:disabled {
     color: #43454B;
 }
-
 QTextEdit:disabled {
     background: #303338;
     color: #43454B;
 }
-
 QTextEdit#pluginDescTextEdit:disabled,
 QTextEdit#descriptionTextEdit:disabled,
 QTextEdit#vserverWelcomeTextEdit:disabled,
@@ -1093,7 +1089,6 @@ QCheckBox::indicator:unchecked {
     border-radius: 10px;
     image: url(styles:dark/checkbox_disabled.png);
 }
-
 QCheckBox::indicator:checked:hover {
     background: #7289DA;
 }
@@ -1143,7 +1138,6 @@ QRadioButton::indicator:disabled:checked {
 QRadioButton::indicator:disabled:unchecked {
     image: url(styles:dark/checkbox_tree_inactive_disabled.png);
 }
-
 
 /* Remove window resize grip */
 QSizeGrip {
@@ -1195,12 +1189,10 @@ QToolTip {
 }
 
 /* Poke dialog */
-PokeDialog QScrollBar:vertical
-{
+PokeDialog QScrollBar:vertical {
     width: 0px;
 }
-PokeDialog QTextEdit
-{
+PokeDialog QTextEdit {
     border: none;
     background: transparent;
     padding: 0;
