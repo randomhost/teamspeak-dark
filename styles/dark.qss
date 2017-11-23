@@ -754,7 +754,6 @@ TreeView {
     color:#dddddd;
 }
 QTreeView::item {
-    height: 16px;
     padding: 1px;
     border: 0px;
 }
