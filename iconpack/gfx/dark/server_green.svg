@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg15444"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="server_green.svg"><metadata
      id="metadata15463"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,7 +33,7 @@
      id="namedview15459"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="-76.315524"
+     inkscape:cx="-194.824"
      inkscape:cy="13.21543"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -52,10 +52,10 @@
      style="fill:#e6e6e6"
      id="rect15447" /><path
      d="M118.999,37.936c0,4.721 -3.848,8.549 -8.594,8.549l-92.812,0c-4.746,0 -8.594,-3.827 -8.594,-8.549l0,-15.387c0,-4.722 3.848,-8.549 8.594,-8.549l92.813,0c4.746,0 8.594,3.827 8.594,8.549l0,15.387l-0.001,0Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path15449" /><path
      d="M118.999,82.251c0,4.722 -3.848,8.548 -8.594,8.548l-92.812,0c-4.746,0 -8.594,-3.827 -8.594,-8.548l0,-15.389c0,-4.721 3.848,-8.548 8.594,-8.548l92.813,0c4.746,0 8.594,3.827 8.594,8.548l0,15.389l-0.001,0Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path15451" /><path
      d="M108.687,80.211c0,1.132 -0.913,2.04 -2.051,2.04l-28.555,0c-1.138,0 -2.051,-0.908 -2.051,-2.04l0,-11.309c0,-1.131 0.913,-2.04 2.051,-2.04l28.555,0c1.138,0 2.051,0.909 2.051,2.04l0,11.309Z"
      style="fill:#fff;fill-rule:nonzero;"

@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg9239"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="recording_start.svg"><metadata
      id="metadata9250"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,7 +33,7 @@
      id="namedview9246"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -46,7 +46,7 @@
      height="128"
      style="fill:none;" /><path
      d="M119,9l-110,0l0,110l110,0l0,-110Zm-17.346,55c0,20.796 -16.858,37.654 -37.654,37.654c-20.796,0 -37.654,-16.858 -37.654,-37.654c0,-20.796 16.858,-37.654 37.654,-37.654c20.796,0 37.654,16.858 37.654,37.654Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path9242" /><path
      d="M64,36.346c-15.249,0 -27.654,12.406 -27.654,27.654c0,15.249 12.406,27.654 27.654,27.654c15.249,0 27.654,-12.405 27.654,-27.654c0,-15.249 -12.405,-27.654 -27.654,-27.654Z"
      style="fill:#c90709;fill-rule:nonzero;"

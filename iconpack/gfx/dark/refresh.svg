@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg10345"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="refresh.svg"><metadata
      id="metadata10354"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,7 +33,7 @@
      id="namedview10350"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -46,5 +46,5 @@
      height="128"
      style="fill:none;" /><path
      d="M64.366,101.939c-20.68,0 -37.503,-16.8 -37.503,-37.507c0,-20.681 16.824,-37.506 37.503,-37.506c8.874,0 17.032,3.086 23.446,8.274l-18.579,16.075l48.979,7.25l-0.102,-49.525l-17.248,14.883c-9.603,-8.712 -22.4,-14.069 -36.496,-14.069c-30.145,0 -54.579,24.472 -54.579,54.618c0,30.155 24.434,54.568 54.579,54.568c23.662,0 43.783,-15.036 51.318,-36.016l-17.417,-2.641c-5.947,12.752 -18.918,21.596 -33.901,21.596Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path10348" /></svg>

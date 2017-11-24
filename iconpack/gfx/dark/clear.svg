@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg18118"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="clear.svg"><metadata
      id="metadata18129"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,7 +33,7 @@
      id="namedview18125"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -49,5 +49,5 @@
      style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
      id="path18121" /><path
      d="M25.852,14.683l4.346,37.64c0.126,1.083 0.614,2.09 1.387,2.862l9.843,9.845l23.608,-23.604l-31.004,-31.002c-0.003,-0.001 -0.008,-0.006 -0.011,-0.009c-1.886,-1.886 -4.943,-1.886 -6.83,0c-1.16,1.159 -1.608,2.765 -1.339,4.268Z"
-     style="fill:#808080;fill-rule:nonzero"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path18123" /></svg>

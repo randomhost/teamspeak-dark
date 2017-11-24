@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg13072"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="listview.svg"><metadata
      id="metadata13093"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,12 +33,12 @@
      id="namedview13089"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg13072" /><g
+     inkscape:current-layer="listview" /><g
      transform="matrix(1,0,0,1,-2688,-320)"
      id="g13074"><g
        id="listview"
@@ -62,5 +62,5 @@
          style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
          id="path13085" /><path
          d="M106.423,83.666C105.312,83.353 104.275,83.058 103.249,82.535C101.895,81.855 97.563,78.662 98.185,78.008C101.315,74.612 102.53,73.719 104.1,69.862L104.587,68.646L105.699,68.072C106.613,67.592 107.851,65.759 108.508,62.742C108.889,61.023 108.975,59.286 108.73,57.976C108.551,57.043 108.27,56.546 108.048,56.398L106.77,55.477L106.565,53.807C105.573,44.995 100.526,38.938 91.53,38.938C82.524,38.938 77.471,44.991 76.464,53.805L76.28,55.481L74.969,56.398C74.76,56.546 74.474,57.036 74.299,57.976C74.056,59.287 74.135,61.025 74.508,62.744C75.183,65.768 76.404,67.597 77.332,68.073L78.443,68.646L78.95,69.871C80.51,73.719 81.849,74.739 84.857,78.008C85.661,78.877 81.159,81.851 79.794,82.535C78.764,83.06 77.708,83.354 76.608,83.666C73.538,84.522 70.049,85.513 65.818,91.947C62.645,96.799 61.183,113.448 61,122L122,122C121.91,115.953 120.867,97.513 117.207,91.947C112.989,85.514 109.514,84.523 106.423,83.666Z"
-         style="fill:#cccccc;fill-rule:nonzero"
+         style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
          id="path13087" /></g></g></svg>

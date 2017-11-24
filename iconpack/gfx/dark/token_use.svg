@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg15910"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="token_use.svg"><metadata
      id="metadata15923"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -32,9 +32,9 @@
      inkscape:window-height="1017"
      id="namedview15919"
      showgrid="false"
-     inkscape:zoom="1.84375"
-     inkscape:cx="64"
-     inkscape:cy="64"
+     inkscape:zoom="3.6875"
+     inkscape:cx="72.269347"
+     inkscape:cy="47.164429"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -52,5 +52,5 @@
      style="fill:#cccccc;fill-rule:nonzero"
      id="path15915" /><path
      d="M8.678,39.16c-2.105,-2.105 -2.104,-5.519 0.002,-7.621l22.862,-22.866c2.105,-2.105 5.516,-2.105 7.621,0l36.528,36.531c2.107,2.106 2.106,5.516 0.001,7.62l-22.861,22.862c-2.106,2.109 -5.52,2.11 -7.624,0.002l-36.529,-36.528Zm34.146,-6.852c1.814,-1.814 1.814,-4.756 0,-6.57l-4.213,-4.212c-1.813,-1.814 -4.755,-1.814 -6.568,0l-10.513,10.511c-1.815,1.813 -1.813,4.756 0,6.571l4.212,4.21c1.814,1.816 4.754,1.817 6.571,0l10.511,-10.51Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path15917" /></svg>

@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg23718"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="permission_server_groups.svg"><metadata
      id="metadata23745"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,12 +33,12 @@
      id="namedview23741"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="20.610169"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg23718" /><g
+     inkscape:current-layer="g23733" /><g
      transform="matrix(1,0,0,1,-3072,-800)"
      id="g23720"><g
        id="permission_server_groups"
@@ -62,7 +62,7 @@
          transform="matrix(1,0,0,0.914062,0,400)"
          id="g23733"><path
            d="M102.5,9L71.845,9L71.365,12.906L70.54,19.623L98.688,19.623C99.792,19.623 100.688,20.519 100.688,21.623L100.688,33.062C100.688,34.166 99.792,35.062 98.688,35.062L68.642,35.062L67.817,41.777L67.66,43C73.024,47.826 76.684,54.532 76.684,64.385C76.684,70.55 74.699,76.493 71.198,81.388C73.5,85.331 74.754,89.853 74.877,94.728C74.884,94.99 74.901,95.249 74.901,95.512C74.901,96.132 74.884,96.746 74.852,97.354L102.5,97.354C107.194,97.354 111,93.548 111,88.854L111,17.5C111,12.806 107.194,9 102.5,9Z"
-           style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+           style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
            id="path23735" /></g><g
          transform="matrix(1,0,0,0.914062,0,400)"
          id="g23737"><path
