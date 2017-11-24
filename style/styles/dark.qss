@@ -1232,6 +1232,13 @@ MsgDialog QTextBrowser {
     border-radius: 0;
 }
 
+/* Dock widgets */
+QDockWidget::title {
+    border: transparent;
+    background: #202225;
+    text-align: center;
+}
+
 /*
  * Attempt to fix the "Recipients" field in "New Offline Message" dialog
  *
