@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg4136"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="iconsview.svg"><metadata
      id="metadata4163"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,12 +33,12 @@
      id="namedview4159"
      showgrid="false"
      inkscape:zoom="6.640625"
-     inkscape:cx="64"
+     inkscape:cx="31.096471"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4136" /><g
+     inkscape:current-layer="g4155" /><g
      transform="matrix(1,0,0,1,-2304,-480)"
      id="g4138"><g
        id="iconsview"
@@ -67,5 +67,5 @@
          transform="matrix(1,0,0,0.726562,0,135)"
          id="g4155"><path
            d="M52.182,9C55.948,9 59,12.051 59,15.82L59,52.18C59,55.95 55.948,59 52.182,59L15.818,59C12.052,59 9,55.95 9,52.181L9,15.82C9,12.051 12.052,9 15.818,9L52.182,9Z"
-           style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+           style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
            id="path4157" /></g></g></g></svg>

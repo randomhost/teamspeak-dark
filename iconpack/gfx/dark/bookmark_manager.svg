@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg12157"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="bookmark_manager.svg"><metadata
      id="metadata12170"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,7 +33,7 @@
      id="namedview12166"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -46,7 +46,7 @@
      height="128"
      style="fill:none;" /><path
      d="M39.078,119l-15.037,-14.865l-15.041,14.865l0,-110l30.078,0l0,110Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path12160" /><path
      d="M119,89.189l-15.037,-14.865l-15.041,14.865l0,-80.189l30.078,0l0,80.189Z"
      style="fill:#cccccc;fill-rule:nonzero"

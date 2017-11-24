@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg8757"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="away.svg"><metadata
      id="metadata8780"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,12 +33,12 @@
      id="namedview8776"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="-59.661017"
+     inkscape:cx="-178.16949"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g8759" /><g
+     inkscape:current-layer="g8764" /><g
      transform="matrix(1,0,0,1,-384,0)"
      id="g8759"><g
        id="away"
@@ -52,7 +52,7 @@
          transform="matrix(1,0,0,1,-0.0005,0)"
          id="g8764"><path
            d="M119,110.464C119,115.21 115.153,119.058 110.406,119.058L17.594,119.058C12.848,119.058 9,115.21 9,110.464L9,62.339C9,57.592 12.848,53.745 17.594,53.745L110.407,53.745C115.154,53.745 119.001,57.592 119.001,62.339L119.001,110.464L119,110.464Z"
-           style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+           style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
            id="path8766" /></g><g
          transform="matrix(1,0,0,1,-0.0005,0)"
          id="g8768"><path

@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg12012"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="remove_foe.svg"><metadata
      id="metadata12035"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,12 +33,12 @@
      id="namedview12031"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg12012" /><g
+     inkscape:current-layer="g12019" /><g
      transform="matrix(1,0,0,1,-3840,0)"
      id="g12014"><g
        id="remove_foe"
@@ -52,7 +52,7 @@
          transform="matrix(1,0,0,1,-1.789,0)"
          id="g12019"><path
            d="M51.172,90.874C51.172,79.875 55.86,69.956 63.335,62.991C62.4,62.145 61.728,61.375 61.739,60.941C61.758,60.866 61.784,60.794 61.84,60.733C65.82,56.417 67.592,55.067 69.664,49.967L70.326,48.344L71.805,47.585C73.026,46.955 74.651,44.533 75.537,40.532C76.041,38.253 76.142,35.951 75.822,34.215C75.59,32.97 75.209,32.319 74.931,32.123L73.202,30.912L72.946,28.686C71.611,17.023 64.933,9 53.007,9C53.006,9 53.005,9 53.004,9C53.004,9 53.003,9 53.002,9C41.076,9 34.398,17.023 33.062,28.687L32.805,30.913L31.077,32.124C30.8,32.32 30.418,32.971 30.185,34.216C29.865,35.952 29.966,38.254 30.47,40.533C31.358,44.533 32.982,46.956 34.203,47.586L35.68,48.345L36.343,49.968C38.416,55.068 40.187,56.418 44.168,60.734C44.224,60.795 44.25,60.867 44.269,60.942C44.297,62.014 40.17,65.144 38.108,66.389C37.865,66.53 37.643,66.653 37.468,66.742C36.099,67.429 34.712,67.818 33.249,68.233C29.179,69.372 24.565,70.672 18.962,79.205C14.754,85.628 12.819,107.668 12.578,119.001L63.588,119.001C55.964,112.024 51.172,101.999 51.172,90.874Z"
-           style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+           style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
            id="path12021" /></g><g
          transform="matrix(1,0,0,1,-1.789,0)"
          id="g12023"><path

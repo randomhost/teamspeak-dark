@@ -217,20 +217,21 @@ QPushButton:checked {
 QPushButton:checked:hover {
     background-color: #677BC4;
 }
-#Addons_Setup QPushButton {
-    border-radius: 0px;
-}
+#Addons_Setup QPushButton,
 #Addons_Setup QStackedWidget QPushButton {
     background: #3C3F44;
     border: none;
     color: #dddddd;
     border-radius: 0px;
 }
+#Addons_Setup QPushButton:hover,
 #Addons_Setup QStackedWidget QPushButton:hover {
     background: #42464D;
 }
+#Addons_Setup QPushButton:checked,
 #Addons_Setup QStackedWidget QPushButton:checked {
-    color: #7289DA;
+    background: #25252A;
+    color: #ffffff;
 }
 
 /* MenuBar */
@@ -1212,6 +1213,18 @@ PokeDialog QScrollBar:vertical {
     width: 0px;
 }
 PokeDialog QTextEdit {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Message dialog (e.g. "Use Privilege Key") */
+MsgDialog QTextBrowser QScrollBar:vertical {
+    width: 0px;
+}
+MsgDialog QTextBrowser {
     border: none;
     background: transparent;
     padding: 0;

@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg18660"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="music.svg"><metadata
      id="metadata18669"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,7 +33,7 @@
      id="namedview18665"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -46,5 +46,5 @@
      height="128"
      style="fill:none;" /><path
      d="M115.813,13.826c-24.738,16.741 -41.601,-7.063 -57.528,-4.646c-10.67,1.619 -10.411,9.006 -10.411,26.967c0,3.411 0,54.263 0,54.263c-3.762,-1.765 -8.33,-2.802 -13.259,-2.802c-12.846,0 -23.263,7.029 -23.263,15.69c0,8.675 10.417,15.696 23.263,15.696c12.775,0 23.137,-6.94 23.256,-15.546l0.006,-0.001l0,-74.142c0,0 0,-0.544 0,-1.102c9.458,-3.833 21.352,11.176 43.086,8.698c20.981,-2.394 14.85,-23.075 14.85,-23.075Z"
-     style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+     style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
      id="path18663" /></svg>

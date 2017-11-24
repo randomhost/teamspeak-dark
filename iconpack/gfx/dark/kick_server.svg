@@ -14,7 +14,7 @@
    xml:space="preserve"
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg12511"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="kick_server.svg"><metadata
      id="metadata12530"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -33,12 +33,12 @@
      id="namedview12526"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-54.508475"
      inkscape:cy="64"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg12511" /><g
+     inkscape:current-layer="g12518" /><g
      transform="matrix(1,0,0,1,-2688,-160)"
      id="g12513"><g
        id="kick_server"
@@ -52,7 +52,7 @@
          transform="matrix(1,0,0,1,8.07675,8.07444)"
          id="g12518"><path
            d="M107.92,61.42C106.92,60.51 106.86,59.47 106.54,58.42C104.26,51.33 100.07,48.52 92.59,49.72C87.77,50.5 83.03,51.84 78.28,53.01C72.28,54.51 66.21,56.01 59.94,54.44C49.32,51.41 41,46.18 38.64,34.26C37.64,29.48 34.94,29.05 31.13,32.07C30.091,32.856 29.13,33.74 28.26,34.71C22.59,41.34 15.34,45.47 7.17,48.27C0.73,50.48 -0.48,52.89 2.09,59.33C4.75,65.594 6.761,72.115 8.09,78.79C8.42,89.79 14.67,98.58 19.51,107.87C20.62,110 22.14,110.22 24.4,109.33C32.29,106.21 40.25,103.33 48.21,100.33C49.69,99.78 51.02,99.17 51.07,97.43C51.25,90.38 56.31,89.73 61.34,90.43C74.14,92 84.89,86.73 95.63,81.09C100.41,78.58 105.09,75.86 108.63,71.66C112,67.64 111.83,65 107.92,61.42Z"
-           style="fill:#a9aaac;fill-rule:nonzero;fill-opacity:1"
+           style="fill:#7289da;fill-rule:nonzero;fill-opacity:1"
            id="path12520" /></g><g
          transform="matrix(1,0,0,1,8.07675,8.07444)"
          id="g12522"><path
