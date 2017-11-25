@@ -1,6 +1,6 @@
 /*
  * Dark stylesheet for TeamSpeak 3 client
- * Special file for macOS, loaded in addition to global improved.qss stylesheet
+ * Special file for macOS, loaded in addition to global dark.qss stylesheet
  *
  * Copyright (c) 2017 random-host.com
  */
