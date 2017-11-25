@@ -1,0 +1,12 @@
+/*
+ * Dark stylesheet for TeamSpeak 3 client
+ * Special file for macOS, loaded in addition to global dark.qss stylesheet
+ *
+ * Copyright (c) 2017 random-host.com
+ */
+
+/* macOS specific fixes */
+QComboBox,
+QRadioButton {
+    font-size: 12pt;
+}
