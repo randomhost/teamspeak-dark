@@ -1,8 +1,8 @@
 TeamSpeak 3: Dark Theme
 =======================
 
-A dark theme for [TeamSpeak 3][1] which looks surprisingly similar to another popular voice communication
-software. How did that happen?
+A dark theme for [TeamSpeak 3][1] which looks surprisingly similar to another popular voice
+communication software. How did that happen?
 
 ![Dark Theme Preview][2]
 
@@ -30,7 +30,7 @@ License
 See [LICENSE.txt][7] for full license details.
 
 [1]: https://teamspeak.com
-[2]: preview.png "Dark Theme Preview"
+[2]: docs/screenshot_style.png "Dark Theme Preview"
 [3]: https://github.com/randomhost/teamspeak-dark/releases
 [4]: https://github.com/randomhost/teamspeak-dark/issues
 [5]: https://github.com/randomhost/teamspeak-dark/

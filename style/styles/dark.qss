@@ -38,6 +38,7 @@ ProfileListWidget {
     border-radius: 3px;
 }
 QLabel#OptionsHeadlineTitleLabel {
+    text-transform: uppercase;
     background: none;
     color: #5F6164;
     font-weight: bold;
@@ -1053,8 +1054,7 @@ QWidget#ServerQueryView {
 }
 QTextEdit#pluginDescTextEdit,
 QTextEdit#descriptionTextEdit,
-QTextEdit#vserverWelcomeTextEdit,
-QTextEdit#changeLogTextEdit {
+QTextEdit#vserverWelcomeTextEdit {
     border:1px solid #222427;
     background: #303338;
     border-radius: 3px;
@@ -1063,6 +1063,11 @@ QTextEdit#changeLogTextEdit {
 MainWindowServerTabsWidget,
 MainWindowChatWidget {
     background: transparent;
+}
+
+QTextEdit#changeLogTextEdit,
+QTextBrowser#licenseTextBrowser {
+    padding: 2px;
 }
 
 /* Disabled elements */
@@ -1257,4 +1262,9 @@ OfflineMessagesNew QScrollArea QWidget EscLineEdit {
     border-radius: 3px;
     height: 30px !important;
     max-height: 30px !important;
+}
+
+/* Remove border from avatar in connection info */
+avatarLabel {
+    border: none;
 }
