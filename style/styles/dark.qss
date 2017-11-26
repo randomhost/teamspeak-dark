@@ -38,6 +38,7 @@ ProfileListWidget {
     border-radius: 3px;
 }
 QLabel#OptionsHeadlineTitleLabel {
+    text-transform: uppercase;
     background: none;
     color: #5F6164;
     font-weight: bold;
