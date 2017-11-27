@@ -218,21 +218,52 @@ QPushButton:checked {
 QPushButton:checked:hover {
     background-color: #677BC4;
 }
-#Addons_Setup QPushButton,
-#Addons_Setup QStackedWidget QPushButton {
+
+#Addons_Setup > QPushButton,
+#Addons_Setup QStackedWidget QWidget QPushButton {
+    background: #3C3F44;
+    border-top: 3px solid #36393E;
+    color: #dddddd;
+    border-radius: 0px;
+}
+#Addons_Setup > QPushButton:hover,
+#Addons_Setup QStackedWidget QWidget QPushButton:hover {
+    background: #2F3136;
+    color: #ffffff;
+}
+#Addons_Setup > QPushButton:checked,
+#Addons_Setup QStackedWidget QWidget QPushButton:checked {
+    border-top: 3px solid #7289DA;
+    background: #2F3136;
+    color: #ffffff;
+}
+
+#Addons_Setup QStackedWidget QWidget QListWidget QWidget {
+    border: none;
+    background: transparent;
+}
+
+#Addons_Setup QStackedWidget QWidget QListWidget QPushButton {
     background: #3C3F44;
     border: none;
     color: #dddddd;
     border-radius: 0px;
+    height: 1.5em;
+    width: 70px;
 }
-#Addons_Setup QPushButton:hover,
-#Addons_Setup QStackedWidget QPushButton:hover {
-    background: #42464D;
-}
-#Addons_Setup QPushButton:checked,
-#Addons_Setup QStackedWidget QPushButton:checked {
-    background: #25252A;
+#Addons_Setup QStackedWidget QWidget QListWidget QPushButton:hover {
+    background: #2F3136;
+    border: none;
     color: #ffffff;
+}
+#Addons_Setup QStackedWidget QWidget QListWidget QPushButton:checked {
+    border-top: none;
+    background: #25252A;
+    border: none;
+    color: #ffffff;
+    image: url("styles:dark/apply.svg");
+    image-position: center left;
+    text-align: right;
 }
 
 /* MenuBar */
