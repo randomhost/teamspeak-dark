@@ -249,7 +249,6 @@ QPushButton:checked:hover {
     color: #dddddd;
     border-radius: 0px;
     height: 1.5em;
-    width: 70px;
 }
 #Addons_Setup QStackedWidget QWidget QListWidget QPushButton:hover {
     background: #2F3136;
@@ -261,7 +260,6 @@ QPushButton:checked:hover {
     background: #25252A;
     border: none;
     color: #ffffff;
-    image: url("styles:dark/apply.svg");
     image-position: center left;
     text-align: right;
 }
