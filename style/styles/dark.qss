@@ -1294,6 +1294,6 @@ OfflineMessagesNew QScrollArea QWidget EscLineEdit {
 }
 
 /* Remove border from avatar in connection info */
-avatarLabel {
-    border: none;
+#avatarLabel {
+    border: none !important;
 }
