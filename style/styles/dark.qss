@@ -14,6 +14,7 @@ QTextEdit,
 QSplitter {
     background: #36393E;
     color: #dcddde;
+    outline: none;
 }
 
 /* Box that groups elements together (Example: Tools -> Options -> Application -> Server */
@@ -285,15 +286,21 @@ QMenuBar::item:pressed {
 QMenu {
     background: #2F3136;
     color: #dddddd;
+    border: 1px solid #222427;
 }
 QMenu::item {
     background: transparent;
 }
-QMenu::item:disabled {
+QMenu::item:disabled,
+QMenu::item:disabled:selected {
     color: #43454B;
 }
 QMenu::item:selected {
     background: #36393F;
+    color: #ffffff;
+}
+QMenu::item:on {
+    background: #25252A;
     color: #ffffff;
 }
 QMenu::separator {
@@ -327,13 +334,18 @@ QComboBox {
     font-size: 8pt;
 }
 QComboBox::drop-down {
-    background: #303338;
+    background: transparent;
     border: none;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     width: 15px;
     color: #ffffff;
+}
+QComboBox::down-arrow {
     image: url("styles:dark/arrow_bold_down.png");
+}
+QComboBox::down-arrow:on {
+    image: none;
 }
 QComboBox::drop-down:disabled {
     image: url("styles:dark/arrow_bold_down_disabled.png");
@@ -347,7 +359,11 @@ QComboBox:on {
 }
 QComboBox QAbstractItemView {
     background: #303237;
-    border: none;
+    border:1px solid #222427;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
     selection-background-color: #26282C;
 }
 QComboBox#utcLocalComboBox {
@@ -364,6 +380,7 @@ QListView {
     show-decoration-selected: 1;
     border: 1px solid #222427;
     border-radius: 3px;
+    outline: none;
 }
 QListView::item:hover {
     background: #42464D;
@@ -633,11 +650,6 @@ QToolButton#toolButtonFColor:checked {
     background: #25262A;
     color: #dddddd;
 }
-QToolBoxButton#qt_toolbox_toolboxbutton {
-    background-color: #33363C;
-    border: none;
-    border-radius: 3px;
-}
 
 /* TabBar (e.g. server tabs, chat tabs, permission group tabs, etc.) */
 QTabWidget::tab-bar {
@@ -774,6 +786,7 @@ QTreeView {
     show-decoration-selected: 0;
     border: 1px solid #202225;
     border-radius: 3px;
+    outline: none;
 }
 QTreeView#ServerTreeView,
 QTreeView#remoteTreeView,
@@ -805,9 +818,7 @@ QTreeView::item:selected:!active {
 QTreeView::branch:hover {
     background: #25262A;
 }
-QTreeView::branch:selected {
-    background: #42464D;
-}
+
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
     border-image: none;
@@ -948,6 +959,7 @@ QTableView {
     qproperty-alternatingRowColors: 1;
     border: 1px solid #484B51;
     gridline-color: #484B51;
+    border-radius: 3px;
 }
 QTableView::item {
     border: 1px solid transparent;
@@ -1273,6 +1285,12 @@ QDockWidget::title {
     text-align: center;
 }
 
+/* Offline Messages */
+OfflineMessagesDialog #messagesTreeView,
+OfflineMessagesDialog TextBrowser {
+    border: 1px solid #222427;
+}
+
 /*
  * Attempt to fix the "Recipients" field in "New Offline Message" dialog
  *
@@ -1293,7 +1311,54 @@ OfflineMessagesNew QScrollArea QWidget EscLineEdit {
     max-height: 30px !important;
 }
 
+
 /* Remove border from avatar in connection info */
 #avatarLabel {
     border: none !important;
+}
+
+QFrame {
+    border: none;
+}
+
+/* Identies */
+#remoteIdentitiesListWidget,
+#localIdentitiesListWidget {
+    border: 1px solid #222427;
+}
+
+/* QToolBox tabs (e.g. "Contacts", "Server List") */
+QToolBox:tab {
+    background-color: #26282C;
+    border: none;
+    border-bottom: 1px solid #484B51;
+}
+
+/* Contacts */
+FriendFoeTreeView,
+FriendFoeManager QToolBox {
+    border: 1px solid #222427;
+}
+
+/* WebServerList */
+WebServerList QTableView#serverListTableView {
+    border: 1px solid #222427;
+}
+WebServerList QToolBox {
+    border: 1px solid #222427;
+}
+
+/* URL Catcher */
+UrlCatcherTableView {
+    border: 1px solid #222427;
+}
+
+/* File Transfer */
+FileTransferTreeView {
+    border: 1px solid #222427;
+}
+
+/* Invite Friend */
+#invitationTextEdit {
+    border: 1px solid #222427;
 }
