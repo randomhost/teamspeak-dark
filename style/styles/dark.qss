@@ -48,6 +48,13 @@ QLabel#OptionsHeadlineDescriptionLabel {
     background: none;
     color: #dcddde;
 }
+OptionsDialog QTreeView,
+OptionsDialog QTableWidget,
+OptionsDialog QTableView,
+OptionsDialog QListView {
+    border: 1px solid #202225;
+}
+
 
 /* Server tabs widget and chat widget */
 QWidget#MainWindowServerTabsWidget,
@@ -1083,7 +1090,6 @@ LogDisplay,
 QDialog#BanDialog,
 QWidget#addPropertiesWidget,
 EmoticonsDisplay,
-QWidget#OfflineMessagesDialog,
 QWidget#sound3Dwidget,
 UserVolumeWidget,
 QWidget#sound3DTestWidget,
@@ -1108,6 +1114,7 @@ MainWindowChatWidget {
 
 QTextEdit#changeLogTextEdit,
 QTextBrowser#licenseTextBrowser {
+    border: 1px solid #222427;
     padding: 2px;
 }
 
@@ -1286,8 +1293,11 @@ QDockWidget::title {
 }
 
 /* Offline Messages */
-OfflineMessagesDialog #messagesTreeView,
-OfflineMessagesDialog TextBrowser {
+QWidget#OfflineMessagesDialog {
+    background: #36393E;
+}
+QWidget#OfflineMessagesDialog #messagesTreeView,
+QWidget#OfflineMessagesDialog TextBrowser {
     border: 1px solid #222427;
 }
 
@@ -1298,9 +1308,13 @@ OfflineMessagesDialog TextBrowser {
  * that I couldn't figure out a proper way to style it yet.
  */
 OfflineMessagesNew QScrollArea {
-    border: none;
-    background: #ff0000;
+    border: 1px solid #222427;
+    background: #36393E;
+    border-radius: 3px;
     margin: 0;
+}
+OfflineMessagesNew QScrollArea QWidget#scrollAreaWidgetContents {
+    background: #36393E;
 }
 OfflineMessagesNew QScrollArea QWidget EscLineEdit {
     border: 1px solid #202225;
@@ -1310,7 +1324,10 @@ OfflineMessagesNew QScrollArea QWidget EscLineEdit {
     height: 30px !important;
     max-height: 30px !important;
 }
-
+OfflineMessagesNew QTextEdit,
+OfflineMessagesNew QListView {
+    border: 1px solid #222427;
+}
 
 /* Remove border from avatar in connection info */
 #avatarLabel {
@@ -1360,5 +1377,78 @@ FileTransferTreeView {
 
 /* Invite Friend */
 #invitationTextEdit {
+    border: 1px solid #222427;
+}
+
+/* Customize Toolbar */
+QWidget#CustomizeToolbar QTreeView {
+    border: 1px solid #222427;
+}
+
+/* Whisper Dialog */
+#WhisperDialog QListView,
+#WhisperDialog QTreeView {
+    border: 1px solid #222427;
+}
+
+/* Client / Server Log */
+ClientLogView QTextEdit,
+ServerLogView QTextEdit,
+ServerLogViewHighlightDialog QListView,
+ServerLogViewFilterDialog QListView {
+    border: 1px solid #222427;
+}
+ServerLogView QAbstractScrollArea,
+ClientLogView QAbstractScrollArea {
+    padding: 0;
+}
+
+/* Ban List */
+BanList QTableView {
+    border: 1px solid #222427;
+}
+
+/* Complain List */
+ComplainView QTreeView {
+    border: 1px solid #222427;
+}
+
+/* About Dialog */
+AboutDialog #aboutTab,
+AboutDialog #copyrightTab,
+AboutDialog #licenseTab {
+    background: #2F3136;
+    padding: 0;
+    margin: 0;
+}
+AboutDialog QTabWidget,
+AboutDialog QTextEdit {
+    padding: 0;
+    margin: 0;
+}
+
+/* Bookmarks Manager */
+#BookmarksManager QTreeView {
+    border: 1px solid #222427;
+}
+
+/* Permissions */
+#PermissionsWidget QListView,
+#PermissionsWidget QTreeView {
+    border: 1px solid #222427;
+}
+
+/* Channel Groups of Client */
+#ChannelGroupsOfClientDialog QTreeView {
+    border: 1px solid #222427;
+}
+
+/* List all Clients */
+#ClientDatabaseListViewer QTableView {
+    border: 1px solid #222427;
+}
+
+/* View Tokens */
+#TokenView QTreeView {
     border: 1px solid #222427;
 }
