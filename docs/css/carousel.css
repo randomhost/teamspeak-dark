@@ -1,0 +1,80 @@
+body {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  color: #5a5a5a;
+}
+
+body.home {
+  padding-top: 3rem;
+}
+
+.carousel {
+  margin-bottom: 2rem;
+}
+
+.carousel-caption {
+  right: 0;
+  left: 0;
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  min-height: 22rem;
+  background: #777 no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.carousel-item .row {
+  min-height: 22rem;
+}
+
+.carousel-item .row .col-sm-6 {
+  min-height: 22rem;
+}
+
+.carousel-item .row .col-sm-6 .img-fluid {
+  max-height: 98%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-item {
+  background-image: url("../img/carousel.png");
+}
+
+.featurette-divider {
+  margin: 1rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 2rem;
+  }
+}
+
+.marketing img.rounded-circle {
+  width: 140px;
+  height: 140px;
+}

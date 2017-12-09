@@ -1,0 +1,11 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    margin-top: -17px;
+    margin-bottom: -15px;
+    margin-right: 5px;
+}
