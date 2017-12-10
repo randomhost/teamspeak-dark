@@ -1078,7 +1078,6 @@ QWidget#ToolbarStretcher,
 QStackedWidget {
     background: none;
 }
-QWidget#ConnectionInfoDialog,
 FriendFoeManager,
 ServerLogView,
 ClientLogView,
@@ -1099,8 +1098,10 @@ QWidget#CustomizeToolbar {
 QWidget#ServerQueryView {
     background: #33363C;
 }
+
 QTextEdit#pluginDescTextEdit,
 QTextEdit#descriptionTextEdit,
+QTextEdit#vsServerNicknamesTextEdit,
 QTextEdit#vserverWelcomeTextEdit {
     border:1px solid #222427;
     background: #303338;
@@ -1133,15 +1134,6 @@ QTextEdit:disabled {
     color: #43454B;
 }
 QTextEdit:disabled {
-    background: #303338;
-    color: #43454B;
-}
-QTextEdit#pluginDescTextEdit:disabled,
-QTextEdit#descriptionTextEdit:disabled,
-QTextEdit#vserverWelcomeTextEdit:disabled,
-QTextEdit#changeLogTextEdit:disabled {
-    border:1px solid #222427;
-    border-radius: 3px;
     background: #303338;
 }
 
@@ -1451,4 +1443,33 @@ AboutDialog QTextEdit {
 /* View Tokens */
 #TokenView QTreeView {
     border: 1px solid #222427;
+}
+
+/* Client Connection Info */
+QWidget#ConnectionInfoDialog QStackedWidget QWidget {
+    background: #2F3136;
+}
+QWidget#ConnectionInfoDialog QTabBar::tab:!selected:top {
+    border-top: 3px solid #36393E;
+    margin-top: 0;
+}
+QWidget#ConnectionInfoDialog QTabBar::tab:!selected:bottom {
+    border-bottom: 5px solid #36393E;
+    margin-bottom: 0;
+}
+QWidget#ConnectionInfoDialog {
+    background: #36393E;
+}
+
+/* Virtual Server Edit Dialog */
+#VirtualServerEditDialog {
+    background: #36393E;
+}
+#VirtualServerEditDialog #scrollAreaWidgetContents {
+    border: 1px solid #222427;
+}
+#VirtualServerEditDialog QStackedWidget > QWidget {
+    background: #36393E;
+    background: #2F3136;
+    border-top: 2px solid #2F3136;
 }
