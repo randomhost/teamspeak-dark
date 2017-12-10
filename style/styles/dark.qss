@@ -17,6 +17,10 @@ QSplitter {
     outline: none;
 }
 
+QFrame {
+    border: none;
+}
+
 /* Box that groups elements together (Example: Tools -> Options -> Application -> Server */
 QGroupBox {
     border: none;
@@ -65,20 +69,6 @@ QWidget::pane {
     border: none;
 }
 
-/* Scroll area widgets (no idea where these are used in the client yet) */
-QWidget#scrollAreaWidgetContents,
-QWidget#klappWidget_1,
-QWidget#klappWidget_2,
-QWidget#klappWidget_3,
-QWidget#klappWidget_4,
-QWidget#klappWidget_5,
-QWidget#klappWidget_6,
-QWidget#klappWidget_7 {
-    background-color: #2F3136;
-    padding: 0;
-    border: none;
-}
-
 /* Titles for "Bookmarks", "Identities" and "myTeamSpeak" login  */
 QLabel#bookmarksBanner,
 QLabel#identitiesBanner,
@@ -121,33 +111,6 @@ QLabel#NewsLeftLabel {
     font-style: normal;
 }
 
-/* QGroupBox */
-QGroupBox#filetransferGroupBox,
-QGroupBox#groupOptionsGroupBox,
-QGroupBox#adminServerGroupBox,
-QGroupBox#manageGroupsGroupBox,
-QGroupBox#assignRemoveMemberGroupBox,
-QGroupBox#adminClientsGroupBox,
-QGroupBox#manageChannelsGroupBox,
-QGroupBox#basicsGroupBox {
-    background-color: #2F3136;
-    border: 1px solid #202225;
-    border-radius: 3px;
-    margin-top: 2ex;
-}
-QGroupBox#filetransferGroupBox::title,
-QGroupBox#groupOptionsGroupBox::title,
-QGroupBox#adminServerGroupBox::title,
-QGroupBox#manageGroupsGroupBox::title,
-QGroupBox#assignRemoveMemberGroupBox::title,
-QGroupBox#adminClientsGroupBox::title,
-QGroupBox#manageChannelsGroupBox::title,
-QGroupBox#basicsGroupBox::title {
-    subcontrol-origin:margin;
-    padding:0 5px;
-    margin-left: 8px;
-    left:11px;
-}
 /* Invisible splitter handles */
 QSplitter::handle {
     background-color: transparent;
@@ -191,6 +154,15 @@ QExpandingLineEdit {
     padding: 0px;
 }
 
+QTableView,
+QListView,
+QTreeView,
+QToolBox {
+    border: 1px solid #222427;
+    outline: none;
+    show-decoration-selected: 0;
+}
+
 /*
  * Push buttons (e.g. "OK", "Cancel", "Apply")
  *
@@ -227,6 +199,7 @@ QPushButton:checked:hover {
     background-color: #677BC4;
 }
 
+/* Options -> Addons */
 #Addons_Setup > QPushButton,
 #Addons_Setup QStackedWidget QWidget QPushButton {
     background: #3C3F44;
@@ -316,20 +289,7 @@ QMenu::separator {
     margin-top: 2px;
     background: #43454B;
 }
-/*
- * QMenuIndicator
- *
- * These are used to indicate "checked" options in context menus but cause
- * problems with the "Channel Commander" and "Priority Speaker" options.
- */
-/*
-QMenu::indicator {
-    background: #42464D;
-}
-QMenu::indicator:non-exclusive:checked {
-    background: #42464D;
-}
-*/
+
 /* Combobox (drop-down fields) */
 QComboBox {
     border:1px solid #222427;
@@ -425,34 +385,30 @@ QToolBar {
     background: #36393E;
     spacing: 5px;
 }
-/* ToolButton (e.g. "Toggle Away Status", "Mute Microphone", etc.) */
+
+/* Tool Buttons */
 QToolButton {
     border: none;
     border-radius: 3px;
     background-color: #3C3F44;
-    border-radius: 3px;
     font-weight: bold;
-    color: #ffffff;
+    color: #dddddd;
+    padding: 3px;
 }
 QToolButton:pressed {
-    border: none;
-    border-radius: 3px;
     background: #25252A;
     color: #ffffff;
 }
 QToolButton:hover {
-    border: none;
-    border-radius: 3px;
+    background: #25252A;
+    color: #ffffff;
+}
+QToolButton:checked {
     background: #25252A;
     color: #dddddd;
 }
-QToolButton:checked,
-QToolButton#serverQueryAdvancedButton:checked {
-    border: none;
-    border-radius: 3px;
-    background: #25252A;
-    color: #dddddd;
-}
+
+/* Tool Buttons with drop down menu */
 QToolButton[popupMode="1"] {
     border: none;
     border-radius: 3px;
@@ -470,6 +426,7 @@ QToolButton[popupMode="1"]:checked {
     border-radius: 3px;
     padding-right: 15px;
 }
+/* Tool Button drop down arrow */
 QToolButton::menu-button {
     border: none;
     border-top-right-radius: 3px;
@@ -479,183 +436,6 @@ QToolButton::menu-button {
 QToolButton::menu-button:hover {
     border: none;
     border-radius: 3px;
-}
-QToolButton#newBookmarkButton,
-QToolButton#newBookmarkFolderButton,
-QToolButton#removeBookmarkButton {
-    background: none;
-    border: 1px solid transparent;
-}
-QToolButton#newBookmarkButton:hover,
-QToolButton#newBookmarkFolderButton:hover,
-QToolButton#removeBookmarkButton:hover {
-    background: #25262A;
-    border: none;
-    border-radius: 3px;
-}
-QToolButton#serverQueryRunButton,
-QToolButton#serverQuerySingleStepsButton,
-QToolButton#serverQueryStopButton,
-QToolButton#serverQueryRestartButton,
-QToolButton#serverQueryAdvancedButton,
-QToolButton#serverQueryClearHighlightButton,
-QToolButton#newSQScriptButton,
-QToolButton#updateSQScriptButton,
-QToolButton#removeSQScriptButton,
-QToolButton#idAddButton,
-QToolButton#idRemoveButton,
-QToolButton#idSelectDefaultButton,
-QToolButton#idImportButton,
-QToolButton#idExportButton,
-QToolButton#addGroupButton,
-QToolButton#removeGroupButton,
-QToolButton#copyGroupButton,
-QToolButton#renameGroupButton,
-QToolButton#displayClientsButton,
-QToolButton#addClientButton,
-QToolButton#removeClientButton,
-QToolButton#makeCurrentChannelDefaultToolButton,
-QToolButton#improvedIdentityQualityButton,
-QToolButton#toolButtonIcon,
-QToolButton#copyServerIPButton,
-QToolButton#copyClientIPButton,
-QToolButton#whisperListAddButton,
-QToolButton#whisperListDelButton,
-QToolButton#whisperListRenameButton {
-    background-color: #33363C;
-    border: none;
-    border-radius: 3px;
-}
-QToolButton#serverQueryRunButton:hover,
-QToolButton#serverQuerySingleStepsButton:hover,
-QToolButton#serverQueryStopButton:hover,
-QToolButton#serverQueryRestartButton:hover,
-QToolButton#serverQueryAdvancedButton:hover,
-QToolButton#serverQueryClearHighlightButton:hover,
-QToolButton#newSQScriptButton:hover,
-QToolButton#updateSQScriptButton:hover,
-QToolButton#removeSQScriptButton:hover,QToolButton#idAddButton:hover,
-QToolButton#idRemoveButton:hover,
-QToolButton#idSelectDefaultButton:hover,
-QToolButton#idImportButton:hover,
-QToolButton#idExportButton:hover,QToolButton#addGroupButton:hover,
-QToolButton#removeGroupButton:hover,
-QToolButton#copyGroupButton:hover,
-QToolButton#renameGroupButton:hover,
-QToolButton#displayClientsButton:hover,
-QToolButton#addClientButton:hover,
-QToolButton#removeClientButton:hover,
-QToolButton#makeCurrentChannelDefaultToolButton:hover,
-QToolButton#improvedIdentityQualityButton:hover,
-QToolButton#toolButtonIcon:hover,
-QToolButton#copyServerIPButton:hover,
-QToolButton#copyClientIPButton:hover,
-QToolButton#whisperListAddButton:hover,
-QToolButton#whisperListDelButton:hover,
-QToolButton#whisperListRenameButton:hover {
-    background: #25262A;
-    color: #ffffff;
-    color: #ffffff;
-}
-QToolButton#serverQueryStopButton:disabled,
-QToolButton#serverQueryRestartButton:disabled {
-    border: none;
-    border-radius: 3px;
-    background: #25262A;
-    color: #43454B;
-}
-QToolButton#TextFormatButton,
-QToolButton#searchClearButton,
-QToolButton#appScanImportButton,
-QToolButton#appScanReloadButton,
-QToolButton#fbDirUpButton,
-QToolButton#fbRootButton,
-QToolButton#fbRefreshButton,
-QToolButton#fbUploadButton,
-QToolButton#fbDownloadButton,
-QToolButton#fbCreateDirectoryButton,
-QToolButton#fbDeleteButton,
-QToolButton#fbFilterButton,
-QToolButton#descEditButton,QToolButton#fbViewIconsButton,
-QToolButton#fbViewListButton,
-QToolButton#filterGoButton,
-QToolButton#clientUpdateButton,
-QToolButton#filterClearButton,
-QToolButton#banAddButton,
-QToolButton#banRemoveButton,
-QToolButton#banEditButton,
-QToolButton#complainRemoveButton,
-QToolButton#foregroundColorSelectButton,
-QToolButton#backgroundColorSelectButton,
-QToolButton#EmoticonButton,
-QToolButton#iconToolButton {
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0;
-}
-QToolButton#TextFormatButton:hover,
-QToolButton#searchClearButton:hover,
-QToolButton#appScanImportButton:hover,
-QToolButton#appScanReloadButton:hover,
-QToolButton#fbDirUpButton:hover,
-QToolButton#fbRootButton:hover,
-QToolButton#fbRefreshButton:hover,
-QToolButton#fbUploadButton:hover,
-QToolButton#fbDownloadButton:hover,
-QToolButton#fbCreateDirectoryButton:hover,
-QToolButton#fbDeleteButton:hover,
-QToolButton#fbFilterButton:hover,
-QToolButton#descEditButton:hover,QToolButton#fbViewIconsButton:hover,
-QToolButton#fbViewListButton:hover,
-QToolButton#filterGoButton:hover,
-QToolButton#clientUpdateButton:hover,
-QToolButton#filterClearButton:hover,
-QToolButton#banAddButton:hover,
-QToolButton#banRemoveButton:hover,
-QToolButton#banEditButton:hover,
-QToolButton#complainRemoveButton:hover,
-QToolButton#foregroundColorSelectButton:hover,
-QToolButton#backgroundColorSelectButton:hover,
-QToolButton#EmoticonButton:hover,
-QToolButton#iconToolButton:hover {
-    background: #25262A;
-    color: #ffffff;
-    border: none;
-    border-radius: 3px;
-}
-QToolButton#TextFormatButton:checked,
-QToolButton#fbViewIconsButton:checked,
-QToolButton#fbViewListButton:checked {
-    border: none;
-    border-radius: 3px;
-    background: #25262A;
-    color: #dddddd;
-}
-QToolButton#toolButtonBold,
-QToolButton#toolButtonItalic,
-QToolButton#toolButtonUnderLine,
-QToolButton#toolButtonFColor {
-    background-color: transparent;
-    border: none;
-    border-radius: 3px;
-}
-QToolButton#toolButtonBold:hover,
-QToolButton#toolButtonItalic:hover,
-QToolButton#toolButtonUnderLine:hover,
-QToolButton#toolButtonFColor:hover {
-    background: #25262A;
-    color: #ffffff;
-    border: none;
-    border-radius: 3px
-}
-QToolButton#toolButtonBold:checked,
-QToolButton#toolButtonItalic:checked,
-QToolButton#toolButtonUnderLine:checked,
-QToolButton#toolButtonFColor:checked {
-    border: none;
-    border-radius: 3px;
-    background: #25262A;
-    color: #dddddd;
 }
 
 /* TabBar (e.g. server tabs, chat tabs, permission group tabs, etc.) */
@@ -800,10 +580,11 @@ QTreeView#remoteTreeView,
 QTreeView#localTreeView {
   qproperty-rootIsDecorated: 0;
 }
+QTreeView#ServerTreeView {
+    border: none;
+}
 TreeView {
     background: #2F3136;
-    border: none;
-    border-radius: 0;
     color:#dddddd;
 }
 QTreeView::item {
@@ -863,7 +644,7 @@ QTreeWidget#appsTreeWidget::indicator:unchecked,
 QListWidget#pluginsListWidget::indicator:unchecked,
 QListView#ServerGroupsListView::indicator:unchecked,
 QTreeWidget#clientsTreeWidget::indicator:unchecked,
-QGroupBox#advancedGroupBox::indicator:unchecked {
+styles:dark#advancedGroupBox::indicator:unchecked {
     background-color: transparent;
     border: none;
     border-radius: 3px;
@@ -875,7 +656,7 @@ QTreeWidget#appsTreeWidget::indicator:unchecked:hover,
 QListWidget#pluginsListWidget::indicator:unchecked:hover,
 QListView#ServerGroupsListView::indicator:unchecked:hover,
 QTreeWidget#clientsTreeWidget::indicator:unchecked:hover,
-QGroupBox#advancedGroupBox::indicator:unchecked:hover {
+styles:dark#advancedGroupBox::indicator:unchecked:hover {
     background: transparent;
 }
 QTreeWidget#clientsTreeWidget {
@@ -964,7 +745,6 @@ QTableView {
     selection-background-color: #26282C;
     selection-color: #ffffff;
     qproperty-alternatingRowColors: 1;
-    border: 1px solid #484B51;
     gridline-color: #484B51;
     border-radius: 3px;
 }
@@ -1081,7 +861,6 @@ QStackedWidget {
 FriendFoeManager,
 ServerLogView,
 ClientLogView,
-FileBrowser,
 BookmarksManager,
 QWidget#UrlCatcherViewer,
 QWidget#ServerConnectionInfoDialog,
@@ -1095,6 +874,8 @@ QWidget#sound3DTestWidget,
 QWidget#CustomizeToolbar {
     background: #2F3136;
 }
+
+FileBrowser,
 QWidget#ServerQueryView {
     background: #33363C;
 }
@@ -1219,6 +1000,7 @@ InfoFrame {
     background-repeat: none;
     background-position: top right;
     background-attachment: fixed;
+    padding: 0;
 }
 /* Logo in bottom-right corner of ChatTab window*/
 QTextEdit#ChatTab {
@@ -1228,6 +1010,7 @@ QTextEdit#ChatTab {
     background-repeat: none;
     background-position: bottom right;
     background-attachment: fixed;
+    padding: 0;
 }
 
 /* Wizard */
@@ -1293,12 +1076,7 @@ QWidget#OfflineMessagesDialog TextBrowser {
     border: 1px solid #222427;
 }
 
-/*
- * Attempt to fix the "Recipients" field in "New Offline Message" dialog
- *
- * That dialog is not even a dialog and consists of so many nested elements
- * that I couldn't figure out a proper way to style it yet.
- */
+/* "Recipients" field in "New Offline Message" dialog */
 OfflineMessagesNew QScrollArea {
     border: 1px solid #222427;
     background: #36393E;
@@ -1326,16 +1104,6 @@ OfflineMessagesNew QListView {
     border: none !important;
 }
 
-QFrame {
-    border: none;
-}
-
-/* Identies */
-#remoteIdentitiesListWidget,
-#localIdentitiesListWidget {
-    border: 1px solid #222427;
-}
-
 /* QToolBox tabs (e.g. "Contacts", "Server List") */
 QToolBox:tab {
     background-color: #26282C;
@@ -1343,66 +1111,10 @@ QToolBox:tab {
     border-bottom: 1px solid #484B51;
 }
 
-/* Contacts */
-FriendFoeTreeView,
-FriendFoeManager QToolBox {
-    border: 1px solid #222427;
-}
-
-/* WebServerList */
-WebServerList QTableView#serverListTableView {
-    border: 1px solid #222427;
-}
-WebServerList QToolBox {
-    border: 1px solid #222427;
-}
-
-/* URL Catcher */
-UrlCatcherTableView {
-    border: 1px solid #222427;
-}
-
-/* File Transfer */
-FileTransferTreeView {
-    border: 1px solid #222427;
-}
-
-/* Invite Friend */
-#invitationTextEdit {
-    border: 1px solid #222427;
-}
-
-/* Customize Toolbar */
-QWidget#CustomizeToolbar QTreeView {
-    border: 1px solid #222427;
-}
-
-/* Whisper Dialog */
-#WhisperDialog QListView,
-#WhisperDialog QTreeView {
-    border: 1px solid #222427;
-}
-
 /* Client / Server Log */
-ClientLogView QTextEdit,
-ServerLogView QTextEdit,
-ServerLogViewHighlightDialog QListView,
-ServerLogViewFilterDialog QListView {
-    border: 1px solid #222427;
-}
 ServerLogView QAbstractScrollArea,
 ClientLogView QAbstractScrollArea {
     padding: 0;
-}
-
-/* Ban List */
-BanList QTableView {
-    border: 1px solid #222427;
-}
-
-/* Complain List */
-ComplainView QTreeView {
-    border: 1px solid #222427;
 }
 
 /* About Dialog */
@@ -1417,32 +1129,6 @@ AboutDialog QTabWidget,
 AboutDialog QTextEdit {
     padding: 0;
     margin: 0;
-}
-
-/* Bookmarks Manager */
-#BookmarksManager QTreeView {
-    border: 1px solid #222427;
-}
-
-/* Permissions */
-#PermissionsWidget QListView,
-#PermissionsWidget QTreeView {
-    border: 1px solid #222427;
-}
-
-/* Channel Groups of Client */
-#ChannelGroupsOfClientDialog QTreeView {
-    border: 1px solid #222427;
-}
-
-/* List all Clients */
-#ClientDatabaseListViewer QTableView {
-    border: 1px solid #222427;
-}
-
-/* View Tokens */
-#TokenView QTreeView {
-    border: 1px solid #222427;
 }
 
 /* Client Connection Info */
@@ -1465,11 +1151,28 @@ QWidget#ConnectionInfoDialog {
 #VirtualServerEditDialog {
     background: #36393E;
 }
-#VirtualServerEditDialog #scrollAreaWidgetContents {
+#VirtualServerEditDialog QScrollArea {
     border: 1px solid #222427;
+    border-radius: 3px;
 }
+#VirtualServerEditDialog #scrollAreaWidgetContents {
+    border-radius: 3px;
+}
+
 #VirtualServerEditDialog QStackedWidget > QWidget {
-    background: #36393E;
     background: #2F3136;
     border-top: 2px solid #2F3136;
+}
+
+/* Virtual Server Edit Dialog */
+#CreateChannelDialog {
+    background: #36393E;
+}
+
+#CreateChannelDialog QStackedWidget > QWidget {
+    background: #2F3136;
+    border-top: 2px solid #2F3136;
+}
+#CreateChannelDialog #permissionsWidget {
+    background: none;
 }
