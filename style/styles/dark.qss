@@ -1064,10 +1064,31 @@ MsgDialog QTextBrowser {
 }
 
 /* Dock widgets */
+QDockWidget {
+    font-weight: bold;
+    color: #5F6164;
+    text-transform: uppercase;
+    titlebar-close-icon: url('styles:dark/close_button.svg');
+    titlebar-normal-icon: url('styles:dark/restore_button.svg');
+}
+
 QDockWidget::title {
-    border: transparent;
-    background: #202225;
+    border: 1px solid #202225;
+    background: #292B2F;
     text-align: center;
+}
+QDockWidget::close-button,
+QDockWidget::float-button {
+    border: none;
+    border-radius: 3px;
+    background-color: #292B2F;
+    icon-size: 15px;
+    padding: 2px;
+
+}
+QDockWidget::close-button:hover,
+QDockWidget::float-button:hover {
+    background: #25252A;
 }
 
 /* Offline Messages */
