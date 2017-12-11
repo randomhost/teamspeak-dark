@@ -1200,3 +1200,12 @@ QWidget#ConnectionInfoDialog {
 #CreateChannelDialog #permissionsWidget {
     background: none;
 }
+
+/* Preview Widget */
+#PreviewWidget QToolButton,
+#PreviewWidget QLabel {
+    color: #000000;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
