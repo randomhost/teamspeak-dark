@@ -7,9 +7,9 @@
     <meta name="googlebot" content="index, follow">
     <meta name="rating" content="general">
     <title>Dark :: A dark Theme for TeamSpeak 3</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
 </head>
 <body class="home">
 
@@ -26,9 +26,15 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">
-                        <i class="fa fa-picture-o"></i>
+                    <a class="nav-link" href="./">
+                        <i class="fa fa-info-circle"></i>
                         About <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./screenshots/">
+                        <i class="fa fa-picture-o"></i>
+                        Screenshots
                     </a>
                 </li>
                 <li class="nav-item">
@@ -47,7 +53,6 @@
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-
             <div class="carousel-item active" id="carousel-theme">
                 <div class="container">
                     <div class="row">
@@ -59,11 +64,18 @@
                                     popular voice communication software. How did that happen?
                                 </p>
                                 <p>
-                                    <a class="btn btn-lg btn-primary" href="https://github.com/randomhost/teamspeak-dark/releases"
-                                       role="button">
-                                        <i class="fa fa-download"></i>
-                                        Download now
-                                    </a>
+                                    <span class="btn-group">
+                                        <a class="btn btn-lg btn-primary" href="https://github.com/randomhost/teamspeak-dark/releases/latest"
+                                           role="button">
+                                            <i class="fa fa-download"></i>
+                                            Download
+                                        </a>
+                                        <a class="btn btn-lg btn-secondary" href="./screenshots/"
+                                           role="button">
+                                            <i class="fa fa-picture-o"></i>
+                                            Screenshots
+                                        </a>
+                                    </span>
                                 </p>
                             </div>
                         </div>
@@ -73,12 +85,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
     <div class="container marketing">
-
         <div class="row featurette">
             <div class="col-md-9">
                 <h2 class="featurette-heading">Custom Icon Pack</h2>
@@ -142,8 +152,8 @@
 
 </main>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
