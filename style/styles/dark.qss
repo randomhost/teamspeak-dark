@@ -591,7 +591,7 @@ QTreeView#ServerTreeView {
 }
 TreeView {
     background: #2F3136;
-    color:#dddddd;
+    color: #dddddd;
 }
 QTreeView::item {
     padding: 1px;
@@ -616,12 +616,22 @@ QTreeView::branch:hover {
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
     border-image: none;
-    image: url(styles:dark/arrow_open.png);
+    image: url(styles:dark/arrow_right.svg);
+    padding: 6px;
+}
+QTreeView::branch:has-children:!has-siblings:closed:hover,
+QTreeView::branch:closed:has-children:has-siblings:hover {
+    image: url(styles:dark/arrow_right_hover.svg);
 }
 QTreeView::branch:open:has-children:!has-siblings,
 QTreeView::branch:open:has-children:has-siblings  {
     border-image: none;
-    image: url(styles:dark/arrow_close.png);
+    image: url(styles:dark/arrow_down.svg);
+    padding: 6px;
+}
+QTreeView::branch:open:has-children:!has-siblings:hover,
+QTreeView::branch:open:has-children:has-siblings:hover  {
+    image: url(styles:dark/arrow_down_hover.svg);
 }
 QTreeView#eventsTreeView::indicator:checked,
 QTreeView#permissionsTreeView::indicator:checked,
@@ -1005,7 +1015,7 @@ QSizeGrip {
 InfoFrame {
     border: 0;
     border-radius: 0;
-    background: url('styles:dark/info.png') #2F3136;
+    background: url('styles:dark/info.svg') #2F3136;
     background-repeat: none;
     background-position: top right;
     background-attachment: fixed;
@@ -1015,7 +1025,7 @@ InfoFrame {
 QTextEdit#ChatTab {
     border: 0;
     border-radius: 0;
-    background: url('styles:dark/chat.png') #2F3136;
+    background: url('styles:dark/chat.svg') #2F3136;
     background-repeat: none;
     background-position: bottom right;
     background-attachment: fixed;
