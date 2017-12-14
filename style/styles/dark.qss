@@ -313,6 +313,9 @@ QComboBox::down-arrow {
     width: 10px;
     height: 10px;
 }
+QComboBox::down-arrow:hover {
+    image: url("styles:dark/arrow_bold_down_hover.svg");
+}
 QComboBox::down-arrow:on {
     image: none;
 }
@@ -537,6 +540,10 @@ QDoubleSpinBox::up-arrow {
     background-position: center center;
     background-repeat: no-repeat;
 }
+QSpinBox::up-arrow:hover,
+QDoubleSpinBox::up-arrow:hover {
+    image:url("styles:dark/arrow_bold_up_hover.svg");
+}
 QSpinBox::up-arrow:disabled,
 QSpinBox::up-arrow:off,
 QDoubleSpinBox#delayPTTSpinBox::up-arrow:disabled,
@@ -566,6 +573,10 @@ QDoubleSpinBox::down-arrow {
     height: 10px;
     background-position: center center;
     background-repeat: no-repeat;
+}
+QSpinBox::down-arrow:hover,
+QDoubleSpinBox::down-arrow:hover {
+    image: url("styles:dark/arrow_bold_down_hover.svg");
 }
 QSpinBox::down-arrow:disabled,
 QSpinBox::down-arrow:off,
