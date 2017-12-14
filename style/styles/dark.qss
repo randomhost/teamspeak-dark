@@ -309,13 +309,15 @@ QComboBox::drop-down {
     color: #ffffff;
 }
 QComboBox::down-arrow {
-    image: url("styles:dark/arrow_bold_down.png");
+    image: url("styles:dark/arrow_bold_down.svg");
+    width: 10px;
+    height: 10px;
 }
 QComboBox::down-arrow:on {
     image: none;
 }
 QComboBox::drop-down:disabled {
-    image: url("styles:dark/arrow_bold_down_disabled.png");
+    image: url("styles:dark/arrow_bold_down_disabled.svg");
 }
 QComboBox:!editable:on,
 QComboBox::drop-down:editable:on {
@@ -529,7 +531,9 @@ QDoubleSpinBox#delayPTTSpinBox::up-button:pressed {
 }
 QSpinBox::up-arrow,
 QDoubleSpinBox::up-arrow {
-    image:url("styles:dark/arrow_bold_up.png");
+    image:url("styles:dark/arrow_bold_up.svg");
+    width: 10px;
+    height: 10px;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -537,7 +541,7 @@ QSpinBox::up-arrow:disabled,
 QSpinBox::up-arrow:off,
 QDoubleSpinBox#delayPTTSpinBox::up-arrow:disabled,
 QDoubleSpinBox#delayPTTSpinBox::up-arrow:off {
-    image: url("styles:dark/arrow_bold_up_disabled.png");
+    image: url("styles:dark/arrow_bold_up_disabled.svg");
 }
 QSpinBox::down-button,
 QDoubleSpinBox::down-button,
@@ -557,7 +561,9 @@ QDoubleSpinBox#delayPTTSpinBox::down-button:pressed {
 }
 QSpinBox::down-arrow,
 QDoubleSpinBox::down-arrow {
-    image: url("styles:dark/arrow_bold_down.png");
+    image: url("styles:dark/arrow_bold_down.svg");
+    width: 10px;
+    height: 10px;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -565,7 +571,7 @@ QSpinBox::down-arrow:disabled,
 QSpinBox::down-arrow:off,
 QDoubleSpinBox#delayPTTSpinBox::down-arrow:disabled,
 QDoubleSpinBox#delayPTTSpinBox::down-arrow:off {
-    image: url("styles:dark/arrow_bold_down_disabled.png");
+    image: url("styles:dark/arrow_bold_down_disabled.svg");
 }
 /* Tree View (e.g. channel tree) */
 QTreeView {
@@ -688,25 +694,25 @@ QScrollBar::handle:horizontal {
     min-width: 20px;
 }
 QScrollBar::up-arrow:vertical {
-    background: url("styles:dark/arrow_bold_up.png");
+    background: url("styles:dark/arrow_bold_up.svg");
     background-repeat: none;
     left: 3px;
     top: 5px;
 }
 QScrollBar::down-arrow:vertical {
-    background: url("styles:dark/arrow_bold_down.png");
+    background: url("styles:dark/arrow_bold_down.svg");
     background-repeat: none;
     left: 3px;
     top: 5px;
 }
 QScrollBar::left-arrow:horizontal {
-    background: url("styles:dark/arrow_bold_left.png");
+    background: url("styles:dark/arrow_bold_left.svg");
     background-repeat: none;
     left: 5px;
     top: 3px;
 }
 QScrollBar::right-arrow:horizontal {
-    background: url("styles:dark/arrow_bold_right.png");
+    background: url("styles:dark/arrow_bold_right.svg");
     background-repeat: none;
     left: 5px;
     top: 3px;
