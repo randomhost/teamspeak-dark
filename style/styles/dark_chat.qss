@@ -84,24 +84,14 @@
  *  - TextMessage_Text                     :: message text
  */
 
-/* @group Global Elements */
-
+/* no padding around chat lines */
 p {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
-/* @end */
-
-/* @group Object Link Elements */
-
-.TextMessage_UserLink {
-  color: #1CB0F4;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.TextMessage_OfflineLink,
+/* clickable text (bold, blue) */
+.TextMessage_UserLink,
 .TextMessage_ChannelLink,
 .TextMessage_ServerLink {
   color: #1CB0F4;
@@ -109,66 +99,68 @@ p {
   text-decoration: none;
 }
 
-/* @end */
+/* unread offline messages link (bold, gold) */
+.TextMessage_OfflineLink {
+  color: #F1C40F;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-/* @group Colored Message Elements */
-
+/* server host name in connection messages (bold) */
 .TextMessage_HostName {
-  color: #1CB0F4;
   font-weight: bold;
 }
 
+/* important messages (green) */
 .TextMessage_Welcome,
 .TextMessage_HostMessage,
 .TextMessage_Poke  {
   color: #0AA537;
+  font-weight: bold;
 }
 
+/* change messages (blue) */
+.TextMessage_ChannelEdited,
+.TextMessage_ChannelMoved,
+.TextMessage_ServerEdited,
+.TextMessage_TalkPowerRequested,
+.TextMessage_TalkPowerAssigned,
+.TextMessage_ChannelCreated,
+.TextMessage_GroupAssigned,
+.TextMessage_ChannelDeleted,
+.TextMessage_GroupRevoked,
+.TextMessage_TalkPowerRevoked
+{
+  color: #7289DA;
+}
+
+/* informational messages (grey) */
 .TextMessage_Normal,
 .TextMessage_Connected,
 .TextMessage_ClientConnected,
-.TextMessage_ClientJoined {
-  color: #7289DA;
-}
-
+.TextMessage_ClientJoined,
 .TextMessage_Disconnected,
 .TextMessage_ClientDisconnected,
 .TextMessage_ClientSwitched,
-.TextMessage_ClientLeft {
-  color: #7289DA;
+.TextMessage_ClientLeft,
+.TextMessage_ClientDropped
+{
+  color: #607D8B;
 }
 
-.TextMessage_ClientDropped,
+/* warning messages (red) */
 .TextMessage_ClientKicked,
 .TextMessage_ClientBanned {
   color: #C9070A;
 }
 
-.TextMessage_ChannelCreated,
-.TextMessage_ChannelDeleted,
-.TextMessage_ChannelEdited,
-.TextMessage_ChannelMoved,
-.TextMessage_ServerEdited {
-  color: #7289DA;
-}
-
-.TextMessage_GroupAssigned,
-.TextMessage_GroupRevoked,
-.TextMessage_TalkPowerAssigned,
-.TextMessage_TalkPowerRevoked,
-.TextMessage_TalkPowerRequested {
-  color: #7289DA;
-}
-
-/* @end */
-
-/* @group Time and History Elements */
-
+/* message timestamp (grey) */
 .TextMessage_Time {
-    color: #7289DA;
-	font-weight: normal;
+  color: #607D8B;
+  font-weight: normal;
 }
 
+/* chat history markers (grey) */
 .TextMessage_BeginHistory,
 .TextMessage_EndHistory {
   color: #707475;
@@ -176,19 +168,13 @@ p {
   font-style: italic;
 }
 
-/* @end */
-
-/* @group Error Message Elements */
-
+/* error messages */
 .TextMessage_ServerError {
   color: #C9070A;
   font-weight: bold;
 }
 
-/* @end */
-
-/* @group Infoframe Elements */
-
+/* Infoframe Elements */
 .InfoFrame_Title {
   font-size: x-large;
 }
@@ -262,11 +248,9 @@ p {
 }
 
 a {
-	color: #1CB0F4;
+  color: #1CB0F4;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-/* @end */
