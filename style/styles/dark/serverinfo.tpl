@@ -35,13 +35,6 @@ SERVER_REFRESH_ACTIVE
 SERVER_REFRESH_ICON
 -->
 
-<style type="text/css">
-    hr {
-        border: solid 1px #484C52;
-        background-color: #484C52;
-    }
-</style>
-
 <!-- begin dummy container including tooltip (single line html table) -->
 
 <div class="InfoFrame" title="<table><tr><td><b><nobr>%%TR_SERVER_CLIENTS_ONLINE%%:&nbsp;</nobr></b></td><td><nobr>%%SERVER_CLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%%</nobr></td></tr><tr><td><b><nobr>%%TR_SERVER_CLIENT_CONNECTIONS%%:&nbsp;</nobr></b></td><td><nobr>%%SERVER_CLIENT_CONNECTIONS%%</nobr></td></tr><tr><td colspan=2><hr /></td></tr><tr><td><b><nobr>%%TR_SERVER_VERSION%%:&nbsp;</nobr></b></td><td><nobr>%%SERVER_VERSION%%</nobr></td></tr></table>">
