@@ -29,6 +29,12 @@ License
 
 See [LICENSE.txt][8] for full license details.
 
+Resources
+---------
+
+* [Project Website][9]
+* [Official Forum Thread][10]
+
 [1]: https://teamspeak.com
 [2]: docs/screenshot_style.png "Dark Theme Preview"
 [3]: https://github.com/randomhost/teamspeak-dark/releases/latest
@@ -37,3 +43,5 @@ See [LICENSE.txt][8] for full license details.
 [6]: CONTRIBUTING.md
 [7]: https://github.com/randomhost/teamspeak-dark/issues?q=is%3Aissue+is%3Aopen+label%3Aupstream
 [8]: LICENSE.txt
+[9]: http://github.random-host.com/teamspeak-dark/
+[10]: https://forum.teamspeak.com/threads/134169-Release-Dark-A-dark-theme-for-TeamSpeak-3
