@@ -4,7 +4,8 @@ body {
     color: #5a5a5a;
 }
 
-body.home .carousel {
+body.home .carousel,
+body.downloads .carousel {
     margin-bottom: 2rem;
 }
 
