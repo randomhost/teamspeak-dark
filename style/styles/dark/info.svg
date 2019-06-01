@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="105.87614mm"
-   height="115.8115mm"
-   viewBox="0 0 105.87614 115.8115"
+   width="100"
+   height="160"
+   viewBox="0 0 26.458339 42.333332"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-341.12636"
-     inkscape:cy="303.97153"
+     inkscape:zoom="1.979899"
+     inkscape:cx="158.21695"
+     inkscape:cy="36.0167"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      showgrid="false"
@@ -35,11 +35,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="in"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-page="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -48,20 +52,46 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:99.29649353px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#36393e;fill-opacity:0.86666667;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="0.11481914"
-     y="105.82367"
+     style="font-style:normal;font-weight:normal;font-size:21.79245186px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#36393e;fill-opacity:0.86666667;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="1.5555921"
+     y="25.281218"
      id="text832"
      inkscape:label="info"><tspan
        sodipodi:role="line"
        id="tspan830"
-       x="0.11481914"
-       y="105.82367"
+       x="1.5555921"
+       y="25.281218"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Webdings;-inkscape-font-specification:Webdings;fill:#36393e;fill-opacity:0.86666667;stroke-width:0.26458332px">i</tspan></text>
+  <g
+     aria-label="Info"
+     style="font-style:normal;font-weight:normal;font-size:4.90194511px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#35393d;fill-opacity:0.86666667;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="text17"
+     transform="translate(5.068046,13.518596)">
+    <path
+       d="m 0.56196507,23.913358 v -7.32994 q 0,-0.109144 0.0804225,-0.183822 0.0804225,-0.07468 0.19531186,-0.07468 H 1.5040576 q 0.1148893,0 0.1895674,0.07468 0.080423,0.07468 0.080423,0.183822 v 7.32994 q 0,0.109145 -0.080423,0.183823 -0.074678,0.07468 -0.1895674,0.07468 H 0.83769946 q -0.11488933,0 -0.19531186,-0.07468 -0.0804225,-0.07468 -0.0804225,-0.183823 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.76466751px;font-family:'TeamSpeak Gothic';-inkscape-font-specification:'TeamSpeak Gothic';fill:#35393d;fill-opacity:0.86666667;stroke-width:0.26458332px"
+       id="path3930"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 2.8827295,23.924847 v -5.319376 q 0,-0.11489 0.074678,-0.189568 0.080423,-0.08042 0.1953119,-0.08042 h 0.6491247 q 0.068934,0 0.1206338,0.05744 0.057445,0.0517 0.057445,0.120634 v 0.126378 q 0,0.07468 0.0517,0.126379 0.057445,0.0517 0.1206338,0.0517 0.086167,0 0.1321227,-0.04596 0.5572133,-0.517002 1.1488933,-0.517002 0.4882797,0 0.7180583,0.333179 0.2355232,0.333179 0.2355232,1.02826 v 4.30835 q 0,0.109145 -0.074678,0.189567 -0.074678,0.08042 -0.1838229,0.08042 h -0.562958 q -0.1148893,0 -0.1953118,-0.08042 -0.074678,-0.08042 -0.074678,-0.189567 V 19.90372 q 0,-0.379135 -0.091912,-0.528491 -0.091911,-0.1551 -0.3216901,-0.1551 -0.2297786,0 -0.5687022,0.235523 -0.333179,0.235523 -0.333179,0.448068 v 4.021127 q 0,0.109145 -0.080423,0.189567 -0.080423,0.08042 -0.1953118,0.08042 h -0.551468 q -0.1148893,0 -0.1953119,-0.08042 -0.074678,-0.08042 -0.074678,-0.189567 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.76466751px;font-family:'TeamSpeak Gothic';-inkscape-font-specification:'TeamSpeak Gothic';fill:#35393d;fill-opacity:0.86666667;stroke-width:0.26458332px"
+       id="path3932"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 6.9727895,19.04205 v -0.448068 q 0,-0.109145 0.074678,-0.189568 0.080423,-0.08042 0.1953119,-0.08042 h 0.2470121 q 0.1148893,0 0.1953118,-0.07468 0.080423,-0.07468 0.080423,-0.183823 v -0.292968 q 0,-0.534235 0.074678,-0.792736 0.080423,-0.264246 0.2872233,-0.442324 0.344668,-0.292968 0.9995372,-0.292968 0.2814789,0 0.517002,0.04596 0.097656,0.01723 0.1608451,0.09191 0.063189,0.06893 0.063189,0.16659 v 0.448068 q 0,0.26999 -0.3159457,0.26999 -0.1148893,-0.02298 -0.1665895,-0.02298 -0.2987122,0 -0.4136016,0.16659 -0.1148893,0.166589 -0.1148893,0.597424 v 0.315946 h 0.6606136 q 0.1091449,0 0.183823,0.08042 0.074678,0.08042 0.074678,0.189568 v 0.448068 q 0,0.109145 -0.074678,0.189568 -0.074678,0.08042 -0.183823,0.08042 h -0.390624 q -0.1148893,0 -0.1953118,0.07468 -0.074678,0.07468 -0.074678,0.183823 v 4.342817 q 0,0.114889 -0.080422,0.195312 -0.074678,0.07468 -0.1895674,0.07468 H 8.0355158 q -0.1148894,0 -0.1953119,-0.07468 -0.074678,-0.08042 -0.074678,-0.195312 V 19.57054 q 0,-0.109145 -0.080423,-0.183823 -0.080423,-0.07468 -0.1953118,-0.07468 H 7.2427794 q -0.1148893,0 -0.1953119,-0.08042 -0.074678,-0.08042 -0.074678,-0.189568 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.76466751px;font-family:'TeamSpeak Gothic';-inkscape-font-specification:'TeamSpeak Gothic';fill:#35393d;fill-opacity:0.86666667;stroke-width:0.26458332px"
+       id="path3934"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 10.430959,22.161295 v -1.803762 q 0,-0.683592 0.09766,-1.039748 0.1034,-0.361902 0.361901,-0.626147 0.48828,-0.471047 1.338461,-0.471047 0.844436,0 1.332716,0.471047 0.264245,0.264245 0.361901,0.620402 0.09766,0.356157 0.09766,1.045493 v 1.803762 q 0,0.689336 -0.09766,1.051238 -0.09766,0.356157 -0.361901,0.620402 -0.482535,0.465302 -1.332716,0.465302 -0.855926,0 -1.338461,-0.465302 -0.258501,-0.264245 -0.361901,-0.626147 -0.09766,-0.361901 -0.09766,-1.045493 z m 1.091448,0.06893 q 0,0.557213 0.16659,0.815714 0.166589,0.252757 0.528491,0.252757 0.367646,0 0.534235,-0.252757 0.172334,-0.258501 0.172334,-0.815714 v -1.94163 q 0,-0.562957 -0.166589,-0.815714 -0.16659,-0.252756 -0.53998,-0.252756 -0.361902,0 -0.528491,0.258501 -0.16659,0.252756 -0.16659,0.809969 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.76466751px;font-family:'TeamSpeak Gothic';-inkscape-font-specification:'TeamSpeak Gothic';fill:#35393d;fill-opacity:0.86666667;stroke-width:0.26458332px"
+       id="path3936"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>

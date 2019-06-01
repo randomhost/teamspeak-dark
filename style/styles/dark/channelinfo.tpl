@@ -2,7 +2,7 @@
 TeamSpeak 3 Channel Info Frame Template
 
 Copyright (c) 2009-2016 TeamSpeak Systems GmbH
-Copyright (c) 2017 random-host.com
+Copyright (c) 2019 random-host.tv
 
 The replaceable variables are embedded in "%%" like %%CHANNEL_NAME%%. At this time you can also use
 %%?CHANNEL_NAME%% (note the question mark), which is a tiny "if"- query. Use it, to remove the whole
