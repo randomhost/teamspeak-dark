@@ -1,8 +1,8 @@
 <!--
 TeamSpeak 3 Channel Info Frame Template
 
-Copyright (c) 2009-2016 TeamSpeak Systems GmbH
-Copyright (c) 2019 random-host.tv
+Copyright (c) 2009-2020 TeamSpeak Systems GmbH
+Copyright (c) 2020 random-host.tv
 
 The replaceable variables are embedded in "%%" like %%CHANNEL_NAME%%. At this time you can also use
 %%?CHANNEL_NAME%% (note the question mark), which is a tiny "if"- query. Use it, to remove the whole
@@ -21,6 +21,7 @@ Options (remove the "#" to enable):
 Replaceable variables for channels:
 
 CHANNEL_NAME
+CHANNEL_NAME_PLAIN
 CHANNEL_ID
 CHANNEL_ICON
 CHANNEL_ICON_SCALED
@@ -33,6 +34,14 @@ CHANNEL_ORDER
 CHANNEL_CODEC
 CHANNEL_CODEC_BITRATE
 CHANNEL_FLAGS
+CHANNEL_FLAG_PERMANENT
+CHANNEL_FLAG_SEMI_PERMANENT
+CHANNEL_FLAG_TEMPORARY
+CHANNEL_FLAG_PASSWORD
+CHANNEL_FLAG_DEFAULT
+CHANNEL_FLAG_NORMAL
+CHANNEL_FLAG_SPACER
+CHANNEL_FLAG_FORCED_SILENCE
 CHANNEL_SUBSCRIPTION
 CHANNEL_CLIENTS_COUNT
 CHANNEL_VOICE_DATA_ENCRYPTED
@@ -43,6 +52,8 @@ TEMP_CHANNEL_TIME_TO_DELETE
 PLUGIN_INFO_DATA
 IMAGES_MAX_WIDTH
 IMAGES_MAX_HEIGHT
+OPEN_FILE_BROWSER
+FILE_BROWSER_ICON
 -->
 
 <!-- begin dummy container including tooltip (single line html table) -->
