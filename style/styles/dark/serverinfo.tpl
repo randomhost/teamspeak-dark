@@ -1,8 +1,8 @@
 <!--
 TeamSpeak 3 Server Info Frame Template
 
-Copyright (c) 2009-2016 TeamSpeak Systems GmbH
-Copyright (c) 2019 random-host.tv
+Copyright (c) 2009-2020 TeamSpeak Systems GmbH
+Copyright (c) 2020 random-host.tv
 
 The replaceable variables are embedded in "%%" like %%SERVER_NAME%%. At this time you can also use
 %%?SERVER_NAME%% (note the question mark), which is a tiny "if"- query. Use it, to remove the whole
@@ -13,6 +13,10 @@ Templates must be placed in in a sub folder named like the theme (e.g. "styles/e
 Replaceable variables for server:
 
 SERVER_NAME
+SERVER_WELCOMEMESSAGE
+SERVER_HOSTMESSAGE
+SERVER_ID
+SERVER_UNIQUE_ID
 SERVER_VERSION
 SERVER_PLATFORM
 SERVER_CLIENTS_ONLINE
@@ -47,7 +51,7 @@ SERVER_REFRESH_ICON
         <a href="channelid://0" class="TextMessage_ServerLink">%%SERVER_NAME%%</a>
     </div>
 
-    <hr/>
+    <hr />
 
     <!-- begin basic info table -->
 
@@ -74,7 +78,7 @@ SERVER_REFRESH_ICON
         </tr>
     </table>
 
-    <br/>
+    <br />
 
     <!-- begin connection info table -->
 
@@ -91,7 +95,7 @@ SERVER_REFRESH_ICON
         %%?PLUGIN_INFO_DATA%%
     </table>
 
-    <br/>
+    <br />
 
     <!-- begin refresh table -->
 

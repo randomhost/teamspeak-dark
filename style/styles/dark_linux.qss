@@ -1,0 +1,11 @@
+/*
+ * Dark stylesheet for TeamSpeak 3 client
+ * Special file for Linux, loaded in addition to global dark.qss stylesheet
+ *
+ * Copyright (c) 2020 random-host.tv
+ */
+
+/* Remove default Qt icons from dialog box buttons */
+QDialogButtonBox > QPushButton {
+    qproperty-icon: none;
+}

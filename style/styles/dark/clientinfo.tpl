@@ -1,8 +1,8 @@
 <!--
 TeamSpeak 3 Client Info Frame Template
 
-Copyright (c) 2009-2016 TeamSpeak Systems GmbH
-Copyright (c) 2019 random-host.tv
+Copyright (c) 2009-2020 TeamSpeak Systems GmbH
+Copyright (c) 2020 random-host.tv
 
 The replaceable variables are embedded in "%%" like %%CLIENT_NAME%%. At this time you can also use
 %%?CLIENT_NAME%% (note the question mark), which is a tiny "if"- query. Use it, to remove the whole
@@ -17,7 +17,10 @@ Options (remove the "#" to enable):
 
 #%%AVATAR_MAX_WIDTH%%128
 #%%AVATAR_MAX_HEIGHT%%128
+#%%AVATAR_IMAGE_DONT_APPEND%%1
+#%%STATUS_ICONS_DONT_APPEND%%1
 #%%CLIENT_SERVER_SHOW_MAX_GROUPS%%3
+#%%CLIENT_SERVER_SHOW_MAX_BADGES%%3
 
 Replaceable variables for clients:
 
@@ -29,31 +32,55 @@ CLIENT_COUNTRY_IMAGE
 CLIENT_COUNTRY_IMAGE_SCALED
 CLIENT_ID
 CLIENT_UNIQUE_ID
+CLIENT_MYTEAMSPEAK_ID
+CLIENT_TALK_POWER
 CLIENT_AWAY_MESSAGE
 CLIENT_PLATFORM
 CLIENT_VERSION
 CLIENT_VERSION_SHORT
-CLIENT_VERSION_STATE   [Alpha|Beta|Stable]
+CLIENT_VERSION_STATE ([Alpha|Beta|Stable])
+CLIENT_VERSION_LONG
 CLIENT_DESCRIPTION
 CLIENT_ICON
 CLIENT_TOTALCONNECTIONS
 CLIENT_CREATED
 CLIENT_LASTCONNECTED
 CLIENT_CONNECTED_SINCE
+CLIENT_FLAG_AWAY
+CLIENT_FLAG_BADGES
+CLIENT_FLAG_INPUT_MUTED
+CLIENT_FLAG_INPUT_HARDWARE_DISABLED
+CLIENT_FLAG_OUTPUT_MUTED
+CLIENT_FLAG_OUTPUT_HARDWARE_DISABLED
+CLIENT_FLAG_LOCAL_MUTED
+CLIENT_FLAG_INPUT_MUTED_OR_DISABLED
+CLIENT_FLAG_OUTPUT_MUTED_OR_DISABLED
+CLIENT_FLAG_ANY_MUTED_OR_DISABLED
+CLIENT_FLAG_RECORDING
 CLIENT_FLAG_AVATAR
+CLIENT_PATH_AVATAR
 CLIENT_IGNORE_AVATAR
-AVATAR_MAX_WIDTH
-AVATAR_MAX_HEIGHT
 CLIENT_TALK_REQUEST_TIME
 CLIENT_TALK_REQUEST_MSG
 CLIENT_VOLUME_MODIFIER
+CLIENT_CHANNEL_GROUP_ID
 CLIENT_CHANNEL_GROUP_NAME
 CLIENT_CHANNEL_GROUP_ICON
+CLIENT_SERVER_GROUP_ID
 CLIENT_SERVER_GROUP_NAME
 CLIENT_SERVER_GROUP_ICON
+CLIENT_BADGE_NAME
+CLIENT_BADGE_DESCRIPTION
+CLIENT_BADGE_ICON_SMALL
+CLIENT_BADGE_ICON_LARGE
 CLIENT_DATABASE_ID
 CLIENT_SERVER_SHOW_MAX_GROUPS
+CLIENT_SERVER_SHOW_MAX_BADGES
+AVATAR_IMAGE_DONT_APPEND
+STATUS_ICONS_DONT_APPEND
 PLUGIN_INFO_DATA
+AVATAR_MAX_WIDTH
+AVATAR_MAX_HEIGHT
 -->
 
 <!-- begin dummy container including tooltip (single line html table) -->
@@ -68,14 +95,14 @@ PLUGIN_INFO_DATA
         <span class="InfoFrame_CustomNick" title="Custom Nickname">[%%?CLIENT_CUSTOM_NICK_NAME%%]</span>
     </div>
 
-    <hr/>
+    <hr />
 
     <!-- begin basic info table -->
 
-    <table class="InfoFrame_Table">
+    <table class="InfoFrame_Table Space-Bot">
         <tr>
             <td class="Bottom Label">%%TR_CLIENT_VERSION%%:</td>
-            <td class="Bottom">%%TR_CLIENT_VERSION_LONG%%</td>
+            <td class="Bottom">%%CLIENT_VERSION_LONG%%</td>
         </tr>
         <tr><td class="Label">%%TR_CLIENT_CONNECTED_SINCE%%:</td><td>%%CLIENT_CONNECTED_SINCE%%</td></tr>
         <tr><td class="Label">%%?TR_CLIENT_DESCRIPTION%%:</td><td>%%?CLIENT_DESCRIPTION%%</td></tr>
@@ -84,13 +111,26 @@ PLUGIN_INFO_DATA
 
     <!-- begin plugin info table -->
 
-    <br/>
-    <table class="InfoFrame_Table">%%?PLUGIN_INFO_DATA%%</table>
+    %%??PLUGIN_INFO_DATA%%<br />
+    <table class="InfoFrame_Table Space-Bot">%%?PLUGIN_INFO_DATA%%</table>
+
+    <!-- begin client badges table -->
+
+    %%??CLIENT_FLAG_BADGES%%<table class="InfoFrame_Table Space-Bot">
+    %%??CLIENT_FLAG_BADGES%%  <tr>
+    %%??CLIENT_FLAG_BADGES%%    <td class="Label">%%TR_CLIENT_BADGE_SHOWCASE%%:</td>
+    %%??CLIENT_FLAG_BADGES%%  </tr>
+    %%??CLIENT_FLAG_BADGES%%  <tr><td class="List">
+    %%??CLIENT_FLAG_BADGES%%          <table>
+    %%??CLIENT_FLAG_BADGES%%              <tr><td class="Badge" title="%%CLIENT_BADGE_DESCRIPTION%%">%%CLIENT_BADGE_ICON_SMALL%%</td><td title="%%CLIENT_BADGE_DESCRIPTION%%">%%CLIENT_BADGE_NAME%%</td></tr>
+    %%??CLIENT_FLAG_BADGES%%          </table>
+    %%??CLIENT_FLAG_BADGES%%  </td></tr>
+    %%??CLIENT_FLAG_BADGES%%</table>
 
     <!-- begin permission info table -->
 
     <table class="InfoFrame_Table Space-Bot">
-        <tr><td class="Label Space-Top">%%TR_CLIENT_SERVER_GROUPS%%:</td></tr>
+        <tr><td class="Label">%%TR_CLIENT_SERVER_GROUPS%%:</td></tr>
         <tr><td class="List">
                 <table>
                     <tr valign="middle"><td>%%CLIENT_SERVER_GROUP_ICON%%</td><td>%%CLIENT_SERVER_GROUP_NAME%%</td></tr>
@@ -102,8 +142,7 @@ PLUGIN_INFO_DATA
                     <tr valign="middle"><td>%%CLIENT_CHANNEL_GROUP_ICON%%</td><td>%%CLIENT_CHANNEL_GROUP_NAME%%</td></tr>
                 </table>
         </td></tr>
-        <tr><td class="Important"><br/>*** %%?TR_CLIENT_TALK_REQUEST_TIME%%</td></tr>
+        <tr><td class="Important"><br />*** %%?TR_CLIENT_TALK_REQUEST_TIME%%</td></tr>
         <tr><td class="Important">&nbsp;&nbsp;&nbsp;&nbsp;(%%?CLIENT_TALK_REQUEST_MSG%%)</td></tr>
     </table>
-
 </div>

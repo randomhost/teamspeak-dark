@@ -1,8 +1,8 @@
 <!--
 TeamSpeak 3 Client Tooltip Template
 
-Copyright (c) 2009-2016 TeamSpeak Systems GmbH
-Copyright (c) 2019 random-host.tv
+Copyright (c) 2009-2020 TeamSpeak Systems GmbH
+Copyright (c) 2020 random-host.tv
 
 The replaceable variables are embedded in "%%" like %%CLIENT_NAME%%. At this time you can also use
 %%?CLIENT_NAME%% (note the question mark), which is a tiny "if"- query. Use it, to remove the whole
