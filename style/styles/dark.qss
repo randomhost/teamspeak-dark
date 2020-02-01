@@ -2,6 +2,14 @@
 * Dark stylesheet for TeamSpeak 3 client
 *
 * Copyright (c) 2020 random-host.tv
+*
+* Global overrides for QPalette::ColorRole values:
+* QPalette::Link = #1CB0F4;
+*
+* Global overrides for specific highlight colors:
+* CustomColor::ClientFriend    = #1CA037;
+* CustomColor::ClientBlocked   = #C90709;
+* CustomColor::ClientRecording = #FAA61A;
 */
 
 /* Main colors for most elements */
